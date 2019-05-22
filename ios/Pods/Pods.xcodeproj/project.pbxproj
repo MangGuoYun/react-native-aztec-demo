@@ -1,0 +1,1349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004C93A91B499B8CE0239227496DFF20 /* BlockquoteFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D571E18C95D56D99B7B40D7985FBBB /* BlockquoteFormatter.swift */; };
+		00EBE231D68BE001AF89CB97975F00E6 /* AttributeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D195587CCD6722600E187A89DA36A9CB /* AttributeType.swift */; };
+		033BDC76E771340D67307A97AB2AD70B /* Figure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D3EEBC18707FB95F6176EAB277AF58 /* Figure.swift */; };
+		06DA29FB34E29A0ADFA4670A48A42FB2 /* String+Paragraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DC53C7065066268E2B7885C5774AF9 /* String+Paragraph.swift */; };
+		078195AB434E66F17098C63DD4D84D41 /* FigureFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E113A8A4F307500273B3AB0A9D2C27 /* FigureFormatter.swift */; };
+		081660F199A8297AD14568730C2F3FF2 /* HRElementConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC18A2832C97AF330CA35F1C6C19EAD /* HRElementConverter.swift */; };
+		0B1CAC11963E613B9720FD09120A63D7 /* UnderlineFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABD0447217D7AF432F55B64589C0A5 /* UnderlineFormatter.swift */; };
+		0D3E0D256030C9C99A8D6550AF2B479B /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6C9EF9FB2B18576DBC8363C289958 /* Node.swift */; };
+		0F4F03F9FB3C8EBE812E6CCE0086CD97 /* CommentAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8469F757092D7BEDC5C87837B8A1569 /* CommentAttachment.swift */; };
+		1232908ADAFD52A5B94B28CC447737D8 /* StrikethroughFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B161026B3B55CEC17A49AD62E81855 /* StrikethroughFormatter.swift */; };
+		136CF2478EF99F09709DF044D7F8134C /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D0E71B7C55A60B6726C7D015E1D1E9 /* Element.swift */; };
+		17A340B01E5AF5BF1630D1B0A9301726 /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2C3D876C62BE77CF59BF50AC72BDD3 /* UIImage+Resize.swift */; };
+		19ADB477DBA5EB5EB857981AB8B06B18 /* NSAttributedString+ParagraphRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83576F1047D9A5756D8A925D759EA8D5 /* NSAttributedString+ParagraphRange.swift */; };
+		1AA1CDFEA332CCD3C62C308930098D45 /* UIFont+Traits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A578356F95046341AF4A14621B6AC7 /* UIFont+Traits.swift */; };
+		1B9F498540B953390E63F7FD075258A2 /* UnderlineStringAttributeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7362FD2AF4DB2F7A982EAD1ACEE404A4 /* UnderlineStringAttributeConverter.swift */; };
+		1DE798A6C8EBD80D15A1558D11E97660 /* FormatBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E2E91C263FAEB5EDD2424E582C8D7C /* FormatBarItem.swift */; };
+		1EC024752F05A2D6B92DE186B137877F /* FontFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B334DA68D558E2472093B3A7EE826BA /* FontFormatter.swift */; };
+		1FDB8755A444C853E50489DC9164BDE9 /* AttachmentElementConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249B648C656573F5C510586B7E6003F5 /* AttachmentElementConverter.swift */; };
+		20CA614E5B9389ED8E9FE5F09BAC9ECF /* FormattingIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC49C6D6A2AA88C2859E8CC5D8162C1 /* FormattingIdentifier.swift */; };
+		2264DA5B6C1FAFA05844A6CBB70F4309 /* Plugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E21EA2C0F0B9D3ED406DF730BE80746 /* Plugin.swift */; };
+		254ED354AFFBB02CE2B99BA35CF524AA /* ParagraphProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E11AAACF53CF681297577EB9C080C2 /* ParagraphProperty.swift */; };
+		25B92BD278551B8CC53927DD7907BCA5 /* CSSAttributeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E85BEAFD3338D5A4391AFCBB6FE2190 /* CSSAttributeType.swift */; };
+		265322013FCC50F9070157B01D19F774 /* PluginInputCustomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B6289C8E27ABE7F53AC30E1DA1386 /* PluginInputCustomizer.swift */; };
+		269954DAA7C54011E484878D6C572BE9 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C72072EBAC5E9643DDAC25280E77965A /* Media.xcassets */; };
+		272E452EC408E3E0758104978C070145 /* StringUTF16+RangeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CE0E16A229FFC5682EE1B48B906361 /* StringUTF16+RangeConversion.swift */; };
+		27D946E743EE9C84A4A5A4A54B9ED6CE /* LiFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F8B8350B6E7541A6DAF85EB10F46B /* LiFormatter.swift */; };
+		29DF6C76940A5F8ACF9D2D49E0B0BBCD /* GenericElementToTagConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E509200F4573DAE7835862AB2B8D7A0 /* GenericElementToTagConverter.swift */; };
+		2A4A95DFF525B1DEEE292EB7D12F47BE /* NSTextingResult+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7053DB67793771C704454DBBA6789D4 /* NSTextingResult+Helpers.swift */; };
+		2A799C3254456C6A55AB90DE2B26501E /* RenderableAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A4B0A1750303B42C964673F3C3C2E8 /* RenderableAttachment.swift */; };
+		2AA9B4FD9DC9F9C0F1C9C265D6981664 /* PluginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2277EEC1776C05C760055F7E5E93EB /* PluginManager.swift */; };
+		2F4CD8805F59D3EC5F67A054782F0D5B /* StringAttributeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6975254FADF2612AC670FA6BC8C0D03B /* StringAttributeConverter.swift */; };
+		33A5AD3AB3FFD8C6B1E258C30B43AE93 /* ConditionalStringAttributeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0539B7C53A4155E2DCBEF0ADEB549 /* ConditionalStringAttributeConverter.swift */; };
+		3581AB40ED7FB87597FAE72305A85D19 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F65AFB9E5498C856915C8673B0DDCE /* Assets.swift */; };
+		35D51B459962E70830DB678DFB5A08B2 /* HTMLDivFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E36B4FB7B4CAF2DD00964408DCEBE /* HTMLDivFormatter.swift */; };
+		35DA076E351549FD89DB6C642C329EEC /* InNodesConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB004EEF6617E48633023EECFA5D7F01 /* InNodesConverter.swift */; };
+		37745F08EE4A7202095EA3C242E91805 /* ItalicFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E779BA0B570A3AC1FAC12154448BFE8B /* ItalicFormatter.swift */; };
+		38B5AED524DB420C8FC5C3BE4D945DE9 /* TextList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA4D9419A61726CD15077D84527052 /* TextList.swift */; };
+		3A6678F5318D601CD833517F472A28C5 /* WordPress-Aztec-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B15983F915E079FAAF648D45C87353A /* WordPress-Aztec-iOS-dummy.m */; };
+		3B6BA4149902D4046DDED14D9E42DFD3 /* TextNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3938E61449AD089EDCE2C65CBB2D8C5F /* TextNode.swift */; };
+		3B929D2D06B66B951EBD4A0BFB42AA01 /* PreFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5008D54A95287C982A2158CD8B4288 /* PreFormatter.swift */; };
+		3CBF1786AB8813B46DCCE01C9E4B1452 /* GenericElementConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61DF8402B054258C7CBBDC4978BDB77 /* GenericElementConverter.swift */; };
+		3EFEBB8999DA5D5987C6275C79F950A1 /* Figcaption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664910146C91EE578BD5626189A640D2 /* Figcaption.swift */; };
+		4121DFA653520C27FFD179394C81C039 /* StandardAttributeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B3CAEC9EACEC75B2BAA14D34F6D6E4 /* StandardAttributeFormatter.swift */; };
+		415E2E35711C94BD014076A2AA05F3BC /* Blockquote.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B99A6E84E3DC908F008892C7F0196 /* Blockquote.swift */; };
+		41774742D3D33F9446138B2DBA1163F3 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BB70C8997913F0F1BC4BB1AA89601 /* EditorView.swift */; };
+		41DB3B5C7632526915066754D0A5EEEE /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AEAE334858C86547CFF84D5058687F /* TextView.swift */; };
+		443CDD139EB3EE1C8C40525B31755777 /* Pods-ReactNativeAztecDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C961F9F3A951FFC2CB93216569D17D /* Pods-ReactNativeAztecDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		462473997A1ED0C157CAB6632BECD53D /* CiteFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B90B66077655DB8E7011064E328AAED /* CiteFormatter.swift */; };
+		4A423F265FB23EF489795191623460C4 /* ElementToStringConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61141FE4309D14CD39B930B2ACFB3D4 /* ElementToStringConverter.swift */; };
+		52280DECBCB519D6C08F5CE8CB630288 /* CommentNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF0D6ED8CB282BBAC7F91215C10D7DA /* CommentNode.swift */; };
+		52748AF061446C0E93DFDA6B737A1FD0 /* FigcaptionFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C309EE8FF1FBFA2EFAB3CF3B4ACE048A /* FigcaptionFormatter.swift */; };
+		546C1D7F342711D2E6358EC841F972C6 /* CodeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FD625500DE8D84BF48CBD1A5294725 /* CodeFormatter.swift */; };
+		5668BAE115EBF195C5D6495141CCC8B9 /* FigureElementConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBDC5C853AAE36CB9DAEA785A8FE934 /* FigureElementConverter.swift */; };
+		57C27E6F931DFA1E225B7F88431C3757 /* ElementNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B0AC3D6E2C7893FD498CBBAB46E7CA /* ElementNode.swift */; };
+		59166938EBEC3DAF7FA3C15F1F45DDDA /* Pods-ReactNativeAztecDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE890D120CE8AD9E798D476E5CDEDF7C /* Pods-ReactNativeAztecDemo-dummy.m */; };
+		5B2859569B01A25AD6BBA373B42D8039 /* NSBundle+AztecBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E875FFF52F9D53AF9141D8D385102C6 /* NSBundle+AztecBundle.swift */; };
+		5DBB1BE236F287A03CE5ADA1054F4A1D /* MediaAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2DF53CCADAF4BEDE0F832BC53B6A61 /* MediaAttachment.swift */; };
+		5DFEBBB9970B316B3B663A6757FD590A /* UILayoutPriority+Swift4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D372D196FCCC27AB776C060BE965DF0 /* UILayoutPriority+Swift4.swift */; };
+		5F104DA5D9517913E748A40B61098BF5 /* DocumentReadingOptionKey+Swift4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2386E0AA0B3D42699B9175AD4BD8CB /* DocumentReadingOptionKey+Swift4.swift */; };
+		6072324709B1AA71A9C8D29C29666DEE /* UIColor+Parsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC44317CEBF000DC225D2BE3833175E /* UIColor+Parsers.swift */; };
+		61CCB5D810D61E2961A2AA4E0C099665 /* HTMLPre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615F07A3F7B49A0BB150F5698FD436C7 /* HTMLPre.swift */; };
+		62C29FB3B2C40A28B06A5C2FC5C46FF8 /* InAttributeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45282C7C5E4668FCDE517BDD7A42EDB /* InAttributeConverter.swift */; };
+		63FB89BCACF4E6FC72B1A948E1A11B76 /* VideoAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB1F670F1EB581F0F1C3F0AF2788467 /* VideoAttachment.swift */; };
+		644728DC352DBFD16357EEEC103FA2F1 /* ElementConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09DD84DD53497F1E5E02A1C4D208EFF /* ElementConverter.swift */; };
+		67291874BF5E0A1C749ACCE4A615B355 /* CSSAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A6227A031279113EC12786B63DC04F /* CSSAttribute.swift */; };
+		67579C49726E58EDD88CFC8D86C5ED8B /* CiteStringAttributeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356E8042C702720F84ACED4294F3C509 /* CiteStringAttributeConverter.swift */; };
+		6C3F146D9D54B8DE8E5754E50065DF54 /* FormatBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79184D593F96B9CD4E6B78E893C3097 /* FormatBar.swift */; };
+		6D7973820A2DABC9407783FC0E5907E1 /* Array+Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A17571D04E8C57BC5978D3EDBB106B /* Array+Attribute.swift */; };
+		6DD5A1140F40B0ACF8D9EC1381E2B3B8 /* CSSParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE7A7E8632C6769876AA2C60178EF2B /* CSSParser.swift */; };
+		6ED971D2C577A831BE74A955181DB9CD /* ImageAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4179CCD8982923A7B2A95E4BF8F0AA8 /* ImageAttachment.swift */; };
+		729E8BA48853EB8EFD855F138E0FA087 /* Character+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAC2E0CB77C10D5F646BB9BADA65311 /* Character+Name.swift */; };
+		72F6DACE04609D55A3AC182EF2199215 /* HTMLStyleToggler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F7673C63D68426FB8B4FD627041869 /* HTMLStyleToggler.swift */; };
+		740205F1861E899C55E4B12A6E731015 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F008C01A3C0A2F0A15348FE8618B53 /* Header.swift */; };
+		755B349780DB52F0C4B3E25CD1699A91 /* AttributedStringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CDC1B68E8BFD4FA6BE4E9A1DD2E281 /* AttributedStringParser.swift */; };
+		75F654E9E95C05062BC718016FED0A48 /* UITextView+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11C5786B54E2EAF4AD183D75EBBF12 /* UITextView+Delegate.swift */; };
+		75FAD6C6A1C794BE577484126CF5A8CA /* AttributedStringSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F358EAF3E4124B798FCEE4EF89E0C1EA /* AttributedStringSerializer.swift */; };
+		7C3A8A4C4BB84349D190AEA7088968C7 /* HTMLAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605D2CB2EBE7037B894E3DA45C0A8738 /* HTMLAttachment.swift */; };
+		7EBB0F3EC5A5F88FCC2576CE5011D7BB /* BoldElementAttributeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5A416BC0F310A983F9BD2367ADAAB0 /* BoldElementAttributeConverter.swift */; };
+		7F3F73D5C6E5ED452D0DD25336DD7F2A /* ImageAttachmentToElementConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2171144E898986091D34775F70378794 /* ImageAttachmentToElementConverter.swift */; };
+		7F40502371158E7C20516CE10A0891BB /* HTMLLi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1E1C272FF250BA30F8626E59EB5B1 /* HTMLLi.swift */; };
+		7F4CBD36927F7F845B33EB9AFB7A21C2 /* HTMLParagraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F2D7FCA2A14A7B7811ABC9376B5FD3 /* HTMLParagraph.swift */; };
+		801BA7DB8B028C05080898B58EFBC001 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00E6221CD87C3DE3539D001FA05CCEC /* Converter.swift */; };
+		803EDE520D365700A23CA3D3B5D10E10 /* HTMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D15128B7C638547DF166B86964F239 /* HTMLParser.swift */; };
+		811DCEEE27564779C4C0C83925BD9576 /* CommentAttachmentRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19DF8FE5FAD728374B5943FA37926E9 /* CommentAttachmentRenderer.swift */; };
+		8461AD440A3FFAEF9C703373165D2433 /* LinkFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F706FA9031E71B33AAACE4A3A6E11C9 /* LinkFormatter.swift */; };
+		849832509D494951034FA6F0B702AD39 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57007295C7536DC522B413BC9C2F84F0 /* Attribute.swift */; };
+		850F2504BFE08BA1880C48D8CDB3CDBB /* TextViewPasteboardDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE492BD0590B22CCC14F6D02CC4FE8 /* TextViewPasteboardDelegate.swift */; };
+		85BF5767DAA96FE16AA9DF4CE3698281 /* ItalicElementAttributeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84625AA99A8ECBEDD89157964BF94A59 /* ItalicElementAttributeConverter.swift */; };
+		86A4AAF4BD4338E0E5EE7A461B1D2E91 /* LineAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4EA81BB96D819BBBAAF004142D1809 /* LineAttachment.swift */; };
+		86E126AC084F34653C491231FE139B6F /* BRElementConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7A2C9B7429BEE5005CCF08B72E7C15 /* BRElementConverter.swift */; };
+		8E3FAD562BDD3A6CFC18F3DCE5A0DF0B /* BoldCSSAttributeMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42B518FDAD685361A7E866BB737408 /* BoldCSSAttributeMatcher.swift */; };
+		8E47A5F4AD58E3F997085475073AB889 /* NSAttributedString+Attachments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6947AE993DE38DF848038EBCFF22D6EC /* NSAttributedString+Attachments.swift */; };
+		8EA3E61B0B425DB286C98BD2AB293440 /* NSRange+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25823877EFE7A8D17BBE0A9423F1D75C /* NSRange+Helpers.swift */; };
+		9136C4ADFA346B9F51204F4262AEF0D6 /* HTMLAttachmentToElementConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A600588881CEC8543E491ABCA71962B1 /* HTMLAttachmentToElementConverter.swift */; };
+		93300467D476826AF2CECE62BA26264A /* WordPress-Aztec-iOS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6D861FB6472CC5E709D452CCF5ACB6F5 /* WordPress-Aztec-iOS.bundle */; };
+		94E9BE5D523BE535B1D9F7ADB2ADE7B8 /* UIPasteboard+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87E1CA842BFF20FCC7B35BB0FEB3633 /* UIPasteboard+Helpers.swift */; };
+		97B1963E375F3F436B65DCC6E9F4708A /* UnderlineElementAttributeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D74CE4DAFB6618FE7FE698BE0BC8B24 /* UnderlineElementAttributeConverter.swift */; };
+		9A15990A71A24F9D91ED81232C880614 /* ParagraphPropertyConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9D6C1829F049A8FAB0A2B1540A6EAD /* ParagraphPropertyConverter.swift */; };
+		9B81AAFC9A38D4D638A2B461D02DFC59 /* ParagraphAttributeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E000698936A2F796A743D7C0A3E1A /* ParagraphAttributeFormatter.swift */; };
+		9D5F4AA864AF8112735CEA37C44B22C0 /* FormatBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64097B5066CA2F734248953221E6208 /* FormatBarDelegate.swift */; };
+		9D9E4FFBD82B5F08869AB144B78B8589 /* HTMLStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87F5F0D1DC835238F109A25B9A26C39 /* HTMLStorage.swift */; };
+		A25E3613FCCD6548C2132E636CEE36B4 /* LineAttachmentToElementConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851E9982421D8DF21F286E45FBE6741D /* LineAttachmentToElementConverter.swift */; };
+		A8E7BF015C747C12D87E4D7B8D35026E /* String+CharacterName.swift in Sources */ = {isa = PBXBuildFile; fileRef = B865294E7EBDC227651059279A5F6EDF /* String+CharacterName.swift */; };
+		A904D2B8CAED00289261577A6C30FB52 /* VideoElementConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63770B1407278265C586DA4AEF651611 /* VideoElementConverter.swift */; };
+		AB3FE6E4903A9E6DDDE4DB0EFFB71ECF /* NSAttributedString+ReplaceOcurrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = D078270AFDA9D4C398B5C4A29B978C86 /* NSAttributedString+ReplaceOcurrences.swift */; };
+		AEA1549D6C811CC2F9E38474018BFA9A /* BoldStringAttributeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A0AB15EC2FFA8F0EE1D8D8844B395A /* BoldStringAttributeConverter.swift */; };
+		AEE3BCA269BD4E75B018C9DAA67D7FAA /* NSAttributedStringKey+Aztec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA8EABBA2F7F30A478D6C7166AEE172 /* NSAttributedStringKey+Aztec.swift */; };
+		B0ED23CB087ABB561F2393E6277273C9 /* RegexProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131A2D53FD8B3AADDEF1A3E53B90650D /* RegexProcessor.swift */; };
+		B15428DA51C8278BC1E2CFEA0DF79C85 /* HTMLParagraphFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E966146F9F8AB370EE25907D648983DE /* HTMLParagraphFormatter.swift */; };
+		B295E539F898DE592C5D9A2B7E64FCF6 /* CiteElementConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A77E871919F65C163DF92A53944D32B /* CiteElementConverter.swift */; };
+		B3A28507F20D492A165E3462B861562E /* NSAttributedString+Analyzers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF197135536EC31ABB60FD332D7BFFD5 /* NSAttributedString+Analyzers.swift */; };
+		B3E95BA0B36DC4ACC08ED5846469C763 /* ElementAttributeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D56D0DD0E3E8D4EA78DDAA1D51D9A /* ElementAttributeConverter.swift */; };
+		B482695EB389BF849EDFDB2D038167A4 /* UIStackView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDA454605F629EF0965281BC08497D /* UIStackView+Helpers.swift */; };
+		B58638BCE014219F06CF80412CCC5312 /* ShortcodeAttributeParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376292DAF7DADE83657443258E5F8472 /* ShortcodeAttributeParser.swift */; };
+		B5F4DA1FB501DA15226184EE985892E8 /* HTMLProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B1C67253776FEB00F462459CD9D0AC /* HTMLProcessor.swift */; };
+		B67687673A1A1638F6B752474E6C9BB8 /* FigcaptionElementConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D31572008D5E62F7A6FE02D56FA3E6D /* FigcaptionElementConverter.swift */; };
+		B7441D3F9A25C7418597936525DEE828 /* NSMutableAttributedString+ReplaceOcurrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2BE6221B2A2AC047AC59A8BB0D1780 /* NSMutableAttributedString+ReplaceOcurrences.swift */; };
+		B8712A4DDD8CF0F670729D42027155F0 /* ParagraphStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520F286BE6E8C897672D9BA39F0350AE /* ParagraphStyle.swift */; };
+		BB6F71ED723F6706A2D168B2FFAA01FB /* AttachmentToElementConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32957C6AC80AEBC9F40BB73D932BD066 /* AttachmentToElementConverter.swift */; };
+		BDE26B4E4768A308DB6BFC0BECCFCB0A /* NSAttributedString+Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDE9A4CFF75462924C52EF32DCD94E2 /* NSAttributedString+Archive.swift */; };
+		BE836AEFA816A34C17DBA83C043BB798 /* ShortcodeAttributeSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E4A18BEFCA4C45663ECF3118B3D8CA /* ShortcodeAttributeSerializer.swift */; };
+		BEC5AC5C23092B6D93F1A0BE08658242 /* ItalicCSSAttributeMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F70448597DEE5D4BDF430649C46D5 /* ItalicCSSAttributeMatcher.swift */; };
+		BF08DEB5012457AE6545DA8AB3FA772F /* FormatterElementConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C873A065BBE7247184CB36D92C487C45 /* FormatterElementConverter.swift */; };
+		BF7DB7CF75CC829A4EA764D19E505D09 /* Processor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293769AC3F111BD4310FB7C7AEED846A /* Processor.swift */; };
+		C041A6E3DE5C719B971E898B7A142B4D /* InAttributesConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FEB1EBEC2BCB62F40743FE0813A47F /* InAttributesConverter.swift */; };
+		C0A3215F3152FB65CD8B080104E581E2 /* CLinkedListToArrayConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8F3930974A6BBC6157755F4184D0DA /* CLinkedListToArrayConverter.swift */; };
+		C12803FABD4A314C655E81AEE1ED9F59 /* TextListFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D0CF5BF2DDCAB5A8DB00729242095 /* TextListFormatter.swift */; };
+		C1706074B673EAA1027F27A8F675112D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C1BE776A279D6402B4C985B981D039B3 /* NSAttributedString+CharacterName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EC7418F65592F560C58338EACB15E9 /* NSAttributedString+CharacterName.swift */; };
+		C2569F3D4B80F55AC9B7E66640A024ED /* Array+ShortcodeAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7971B69AA86B9DDA9AFF29810515B542 /* Array+ShortcodeAttribute.swift */; };
+		C3168C672A22F1DAD420F2633E373EA0 /* NSMutableAttributedString+ParagraphProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEBCA147A02DE2A60D0D31FFF54AEF3 /* NSMutableAttributedString+ParagraphProperty.swift */; };
+		C5D25270AF44E8F6AEBF7B8A343A0CF0 /* BoldFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D2917D763023BD66005C9B928A60F /* BoldFormatter.swift */; };
+		C8B1AA8880FD2BDB871110E5400C6205 /* HTMLRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0461C7B81364F73424471ADC93F4C4D7 /* HTMLRepresentation.swift */; };
+		CA442485EC49BBBE317E2A62FEC02C9C /* TextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FFD2C9B2B73FD0F00CCBA2041A0AAA /* TextStorage.swift */; };
+		CABDD31DCDAF1FB6EDF2E411742F78FB /* WordPress-Aztec-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A1F192331445DBFC098BB2DDE065095 /* WordPress-Aztec-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE659707A50C6C53415CAC8D46C0D806 /* CSSAttributeMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5570CD8F99F907FF0DAAED7A729119 /* CSSAttributeMatcher.swift */; };
+		CE8A394A03741E49C44428A64463556A /* PipelineProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A2737BBE088197642DF5344349BDF9 /* PipelineProcessor.swift */; };
+		CECAC9027642C2709A6F42D05416AD78 /* NSLayoutManager+Attachments.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD061C7923459E7710760C54DF8AE2B6 /* NSLayoutManager+Attachments.swift */; };
+		D00BD6EC52C9B65E3449DCE125EDAD20 /* String+EndOfLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7C6B1534364E70C84674915D8CC4F0 /* String+EndOfLine.swift */; };
+		D0409B34EE13870E0F1C85501250DF52 /* HTMLAttachmentRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1DCA41857FB5E0A5C6A127B17E10C /* HTMLAttachmentRenderer.swift */; };
+		D10D61F11F93AAEC854913470E75978D /* ItalicStringAttributeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80AFFD7C1E3459FAE1D92C8E1E4E0B6 /* ItalicStringAttributeConverter.swift */; };
+		D147EAC60C0D94FE46770BA219F1E2C7 /* NSAttributedStringKey+Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A86FFBE129CB884C5874A53554A9AA8 /* NSAttributedStringKey+Conversion.swift */; };
+		D39A22460298ED779360CFADA618103D /* MainAttributesConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64837F728836475817A50F6CBC959151 /* MainAttributesConverter.swift */; };
+		D465069BC4C1A808265F39CFEBA03AD5 /* UnderlineCSSAttributeMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C051BC777EED966F91296601D42335 /* UnderlineCSSAttributeMatcher.swift */; };
+		D57C13CA40F38DDEC10C16BBCA032F64 /* ImageElementConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56207394372C959164D35D4B678A7467 /* ImageElementConverter.swift */; };
+		D665E24744BCD6F61723665759A3C800 /* String+RangeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100E2DE60544A9CAA7148187A556E40 /* String+RangeConversion.swift */; };
+		D88B81F13007C8F2EA3F32B1C081B6AA /* HTMLConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DEBB2BFD3F9B808D1B25EF1C7C8554 /* HTMLConverter.swift */; };
+		D8BE9D779BECFB4D38A99AD5183F977E /* String+HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285F9CCF857F8DEF00CAD759EBEE9040 /* String+HTML.swift */; };
+		DA432375D7565552B4A85FC6CBE65312 /* ColorFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A162142B2DB7DE7B1508270B3F64A262 /* ColorFormatter.swift */; };
+		DBB25615C68948CE647A66F22CBE19E9 /* HeaderFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAB3FAA748E80C92EACA47623A0E3E3 /* HeaderFormatter.swift */; };
+		DDC5A00EA8657BB75E1692D90546453F /* Array+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C0529C905886D1003675AE693179AC /* Array+Helpers.swift */; };
+		DF3336A864AD7095D534ADBB523A86E8 /* NSAttributedString+FontTraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7FF7E0F0870F98F0E980A4CB2A034B /* NSAttributedString+FontTraits.swift */; };
+		E47303AD0846D809F273C9FE6336906C /* UIFont+Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87550A5EC335A760D81C9234E04F327A /* UIFont+Emoji.swift */; };
+		E49836E06F29DD3520780A2A0505C023 /* Metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914437F8EB1D8B42E3D0010F008123E /* Metrics.swift */; };
+		E658238D7DD160E2B6AFF606133413EA /* UnsupportedHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7563324DF12C7AAFF79FFB6FAB74FA /* UnsupportedHTML.swift */; };
+		E6763F97FACF59435B30B3BFE2396532 /* CommentAttachmentToElementConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E004C0B389BDCA7D4F5E63C6F80E2C /* CommentAttachmentToElementConverter.swift */; };
+		EA00D038575C6C6CBD941D9289DF875E /* ConditionalItalicStringAttributeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB125AB1DA356D6E984ECA89CA6FF89 /* ConditionalItalicStringAttributeConverter.swift */; };
+		EAFF37056B48362BDF46EE9671966316 /* Dictionary+AttributedStringKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF07F92635BA165A75CEAE0AFCBB853 /* Dictionary+AttributedStringKey.swift */; };
+		EC33E7D4228DBA46827CE6100E474A79 /* HTMLSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB5B30F038078D1757B7E7BA3F23C84 /* HTMLSerializer.swift */; };
+		ECDD99CF9C3EEAE247B7590E6EEBF18A /* AttributeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186BC082CCADCC2FF69FA7EC7629562 /* AttributeFormatter.swift */; };
+		EDD00C78DF2AA316BC21889679A9D8A9 /* UITextView+Undoable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9C9E86B4F28FFB1F59A2E2E2D8C0B5 /* UITextView+Undoable.swift */; };
+		EE6248920559672E16C50382898B5C9B /* HTMLDiv.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA71080A7EF6D8F3F6D0CE15C06DEBD /* HTMLDiv.swift */; };
+		F245BF8F522400ABB58E9F611FC42C66 /* ShortcodeAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD249D48804CD1F83B141416D6CAAF /* ShortcodeAttribute.swift */; };
+		F28C48F2154CE2783C0D17E187256409 /* HTMLTreeProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16993F6B7F3C4AB6ACA17185F4D9FE7 /* HTMLTreeProcessor.swift */; };
+		F296582887AB5959715DD849BB17AA4F /* VideoAttachmentToElementConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083436084C2EBD65B9ABA456057A6B27 /* VideoAttachmentToElementConverter.swift */; };
+		F4245BE6D96214C71DB0F8B55D45B668 /* LayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116B20290F7CAE473ED5D6F025E85A12 /* LayoutManager.swift */; };
+		F6839B8056D4A3B28EEBA2C6DA06C41D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F99684F6FC1C223FC61B6B0FA949DE0E /* PluginOutputCustomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFEAD9DD87AF45952BA9725A8D26B62 /* PluginOutputCustomizer.swift */; };
+		FA45E53C6CA193E7A1302CCCA7196EE5 /* NSAttributedString+Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6BEDA285FD23FDF3AADF98D33FFD2C /* NSAttributedString+Lists.swift */; };
+		FCF9A6AC99B6FEC80D76937C7C129AED /* InNodeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DECD7443685F25252752D9DE39E0DB /* InNodeConverter.swift */; };
+		FDBDDD7675901855A5703C8768C0D2D0 /* DocumentType+Swift4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AEE29D5294D390E13467B4815481E9 /* DocumentType+Swift4.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C702C6CD660A52CFC5A2D7F905E5B99E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F83EA88ACC8246BD12C0AF3E84667323;
+			remoteInfo = "WordPress-Aztec-iOS";
+		};
+		E74391A8B26FB967718DC747AC08553A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA0D4718C58687BF396871984ED402C;
+			remoteInfo = "WordPress-Aztec-iOS-WordPress-Aztec-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DEBB2BFD3F9B808D1B25EF1C7C8554 /* HTMLConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLConverter.swift; path = Aztec/Classes/NSAttributedString/Conversions/HTMLConverter.swift; sourceTree = "<group>"; };
+		02E2E91C263FAEB5EDD2424E582C8D7C /* FormatBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatBarItem.swift; path = Aztec/Classes/GUI/FormatBar/FormatBarItem.swift; sourceTree = "<group>"; };
+		0334ECACB7F12340B294177F8C3758FA /* WordPress-Aztec-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "WordPress-Aztec-iOS.modulemap"; sourceTree = "<group>"; };
+		0461C7B81364F73424471ADC93F4C4D7 /* HTMLRepresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLRepresentation.swift; path = Aztec/Classes/NSAttributedString/Attributes/HTMLRepresentation.swift; sourceTree = "<group>"; };
+		04EE492BD0590B22CCC14F6D02CC4FE8 /* TextViewPasteboardDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextViewPasteboardDelegate.swift; path = Aztec/Classes/TextKit/TextViewPasteboardDelegate.swift; sourceTree = "<group>"; };
+		07F5CBCB369C00D3B427F3F1E406433E /* Pods-ReactNativeAztecDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReactNativeAztecDemo-frameworks.sh"; sourceTree = "<group>"; };
+		083436084C2EBD65B9ABA456057A6B27 /* VideoAttachmentToElementConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoAttachmentToElementConverter.swift; path = Aztec/Classes/NSAttributedString/Conversions/AttachmentToElementConverter/VideoAttachmentToElementConverter.swift; sourceTree = "<group>"; };
+		0A0BB70C8997913F0F1BC4BB1AA89601 /* EditorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EditorView.swift; path = Aztec/Classes/EditorView/EditorView.swift; sourceTree = "<group>"; };
+		0BFD249D48804CD1F83B141416D6CAAF /* ShortcodeAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShortcodeAttribute.swift; path = Aztec/Classes/Processor/ShortcodeAttribute.swift; sourceTree = "<group>"; };
+		0D372D196FCCC27AB776C060BE965DF0 /* UILayoutPriority+Swift4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutPriority+Swift4.swift"; path = "Aztec/Classes/Extensions/UILayoutPriority+Swift4.swift"; sourceTree = "<group>"; };
+		0E2DF53CCADAF4BEDE0F832BC53B6A61 /* MediaAttachment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaAttachment.swift; path = Aztec/Classes/TextKit/MediaAttachment.swift; sourceTree = "<group>"; };
+		0E509200F4573DAE7835862AB2B8D7A0 /* GenericElementToTagConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericElementToTagConverter.swift; path = Aztec/Classes/Converters/ElementsToHTML/Implementations/GenericElementToTagConverter.swift; sourceTree = "<group>"; };
+		0FA0539B7C53A4155E2DCBEF0ADEB549 /* ConditionalStringAttributeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionalStringAttributeConverter.swift; path = Aztec/Classes/Converters/StringAttributesToAttributes/Base/ConditionalStringAttributeConverter.swift; sourceTree = "<group>"; };
+		116B20290F7CAE473ED5D6F025E85A12 /* LayoutManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutManager.swift; path = Aztec/Classes/TextKit/LayoutManager.swift; sourceTree = "<group>"; };
+		11E6C9EF9FB2B18576DBC8363C289958 /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = Aztec/Classes/Libxml2/DOM/Data/Node.swift; sourceTree = "<group>"; };
+		131A2D53FD8B3AADDEF1A3E53B90650D /* RegexProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegexProcessor.swift; path = Aztec/Classes/Processor/RegexProcessor.swift; sourceTree = "<group>"; };
+		14D3EEBC18707FB95F6176EAB277AF58 /* Figure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Figure.swift; path = Aztec/Classes/TextKit/ParagraphProperty/Figure.swift; sourceTree = "<group>"; };
+		1A77E871919F65C163DF92A53944D32B /* CiteElementConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CiteElementConverter.swift; path = Aztec/Classes/Converters/ElementsToAttributedString/Implementations/CiteElementConverter.swift; sourceTree = "<group>"; };
+		1B2E000698936A2F796A743D7C0A3E1A /* ParagraphAttributeFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParagraphAttributeFormatter.swift; path = Aztec/Classes/Formatters/Base/ParagraphAttributeFormatter.swift; sourceTree = "<group>"; };
+		1B5008D54A95287C982A2158CD8B4288 /* PreFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreFormatter.swift; path = Aztec/Classes/Formatters/Implementations/PreFormatter.swift; sourceTree = "<group>"; };
+		1B5570CD8F99F907FF0DAAED7A729119 /* CSSAttributeMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSSAttributeMatcher.swift; path = Aztec/Classes/Libxml2/DOM/Logic/CSS/CSSAttributeMatcher.swift; sourceTree = "<group>"; };
+		1BAC2E0CB77C10D5F646BB9BADA65311 /* Character+Name.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Character+Name.swift"; path = "Aztec/Classes/Extensions/Character+Name.swift"; sourceTree = "<group>"; };
+		1E9C9E86B4F28FFB1F59A2E2E2D8C0B5 /* UITextView+Undoable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextView+Undoable.swift"; path = "Aztec/Classes/Extensions/UITextView+Undoable.swift"; sourceTree = "<group>"; };
+		1EB125AB1DA356D6E984ECA89CA6FF89 /* ConditionalItalicStringAttributeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionalItalicStringAttributeConverter.swift; path = Aztec/Classes/Converters/StringAttributesToAttributes/ConditionalConverters/ConditionalItalicStringAttributeConverter.swift; sourceTree = "<group>"; };
+		1FBB1598FDA549194A5C91382FD32228 /* WordPress-Aztec-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "WordPress-Aztec-iOS.xcconfig"; sourceTree = "<group>"; };
+		2171144E898986091D34775F70378794 /* ImageAttachmentToElementConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageAttachmentToElementConverter.swift; path = Aztec/Classes/NSAttributedString/Conversions/AttachmentToElementConverter/ImageAttachmentToElementConverter.swift; sourceTree = "<group>"; };
+		249B648C656573F5C510586B7E6003F5 /* AttachmentElementConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttachmentElementConverter.swift; path = Aztec/Classes/Converters/ElementsToAttributedString/Base/AttachmentElementConverter.swift; sourceTree = "<group>"; };
+		24A2737BBE088197642DF5344349BDF9 /* PipelineProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PipelineProcessor.swift; path = Aztec/Classes/Processor/PipelineProcessor.swift; sourceTree = "<group>"; };
+		24FFD2C9B2B73FD0F00CCBA2041A0AAA /* TextStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextStorage.swift; path = Aztec/Classes/TextKit/TextStorage.swift; sourceTree = "<group>"; };
+		25823877EFE7A8D17BBE0A9423F1D75C /* NSRange+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSRange+Helpers.swift"; path = "Aztec/Classes/Extensions/NSRange+Helpers.swift"; sourceTree = "<group>"; };
+		285F9CCF857F8DEF00CAD759EBEE9040 /* String+HTML.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+HTML.swift"; path = "Aztec/Classes/Extensions/String+HTML.swift"; sourceTree = "<group>"; };
+		28A578356F95046341AF4A14621B6AC7 /* UIFont+Traits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+Traits.swift"; path = "Aztec/Classes/Extensions/UIFont+Traits.swift"; sourceTree = "<group>"; };
+		293769AC3F111BD4310FB7C7AEED846A /* Processor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Processor.swift; path = Aztec/Classes/Processor/Processor.swift; sourceTree = "<group>"; };
+		2CE1E1C272FF250BA30F8626E59EB5B1 /* HTMLLi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLLi.swift; path = Aztec/Classes/TextKit/ParagraphProperty/HTMLLi.swift; sourceTree = "<group>"; };
+		2F0E36B4FB7B4CAF2DD00964408DCEBE /* HTMLDivFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLDivFormatter.swift; path = Aztec/Classes/Formatters/Implementations/HTMLDivFormatter.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32957C6AC80AEBC9F40BB73D932BD066 /* AttachmentToElementConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttachmentToElementConverter.swift; path = Aztec/Classes/NSAttributedString/Conversions/AttachmentToElementConverter/Base/AttachmentToElementConverter.swift; sourceTree = "<group>"; };
+		33AEAE334858C86547CFF84D5058687F /* TextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextView.swift; path = Aztec/Classes/TextKit/TextView.swift; sourceTree = "<group>"; };
+		356E8042C702720F84ACED4294F3C509 /* CiteStringAttributeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CiteStringAttributeConverter.swift; path = Aztec/Classes/Converters/StringAttributesToAttributes/Implementations/CiteStringAttributeConverter.swift; sourceTree = "<group>"; };
+		376292DAF7DADE83657443258E5F8472 /* ShortcodeAttributeParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShortcodeAttributeParser.swift; path = Aztec/Classes/Processor/ShortcodeAttributeParser.swift; sourceTree = "<group>"; };
+		37E4A18BEFCA4C45663ECF3118B3D8CA /* ShortcodeAttributeSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShortcodeAttributeSerializer.swift; path = Aztec/Classes/Processor/ShortcodeAttributeSerializer.swift; sourceTree = "<group>"; };
+		3938E61449AD089EDCE2C65CBB2D8C5F /* TextNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextNode.swift; path = Aztec/Classes/Libxml2/DOM/Data/TextNode.swift; sourceTree = "<group>"; };
+		3AA8EABBA2F7F30A478D6C7166AEE172 /* NSAttributedStringKey+Aztec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedStringKey+Aztec.swift"; path = "Aztec/Classes/Extensions/NSAttributedStringKey+Aztec.swift"; sourceTree = "<group>"; };
+		3D4EA81BB96D819BBBAAF004142D1809 /* LineAttachment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineAttachment.swift; path = Aztec/Classes/TextKit/LineAttachment.swift; sourceTree = "<group>"; };
+		3D74CE4DAFB6618FE7FE698BE0BC8B24 /* UnderlineElementAttributeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnderlineElementAttributeConverter.swift; path = Aztec/Classes/Converters/AttributesToStringAttributes/Implementations/UnderlineElementAttributeConverter.swift; sourceTree = "<group>"; };
+		3EDE9A4CFF75462924C52EF32DCD94E2 /* NSAttributedString+Archive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+Archive.swift"; path = "Aztec/Classes/Extensions/NSAttributedString+Archive.swift"; sourceTree = "<group>"; };
+		3FE7A7E8632C6769876AA2C60178EF2B /* CSSParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSSParser.swift; path = Aztec/Classes/Libxml2/Converters/In/CSSParser.swift; sourceTree = "<group>"; };
+		42C961F9F3A951FFC2CB93216569D17D /* Pods-ReactNativeAztecDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReactNativeAztecDemo-umbrella.h"; sourceTree = "<group>"; };
+		43EC7418F65592F560C58338EACB15E9 /* NSAttributedString+CharacterName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+CharacterName.swift"; path = "Aztec/Classes/Extensions/NSAttributedString+CharacterName.swift"; sourceTree = "<group>"; };
+		46DC53C7065066268E2B7885C5774AF9 /* String+Paragraph.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Paragraph.swift"; path = "Aztec/Classes/Extensions/String+Paragraph.swift"; sourceTree = "<group>"; };
+		47B1C67253776FEB00F462459CD9D0AC /* HTMLProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLProcessor.swift; path = Aztec/Classes/Processor/HTMLProcessor.swift; sourceTree = "<group>"; };
+		4A1F192331445DBFC098BB2DDE065095 /* WordPress-Aztec-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WordPress-Aztec-iOS-umbrella.h"; sourceTree = "<group>"; };
+		4A5D2917D763023BD66005C9B928A60F /* BoldFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoldFormatter.swift; path = Aztec/Classes/Formatters/Implementations/BoldFormatter.swift; sourceTree = "<group>"; };
+		4B334DA68D558E2472093B3A7EE826BA /* FontFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontFormatter.swift; path = Aztec/Classes/Formatters/Base/FontFormatter.swift; sourceTree = "<group>"; };
+		4CEBCA147A02DE2A60D0D31FFF54AEF3 /* NSMutableAttributedString+ParagraphProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSMutableAttributedString+ParagraphProperty.swift"; path = "Aztec/Classes/Extensions/NSMutableAttributedString+ParagraphProperty.swift"; sourceTree = "<group>"; };
+		4E875FFF52F9D53AF9141D8D385102C6 /* NSBundle+AztecBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+AztecBundle.swift"; path = "Aztec/Classes/Extensions/NSBundle+AztecBundle.swift"; sourceTree = "<group>"; };
+		4FC49C6D6A2AA88C2859E8CC5D8162C1 /* FormattingIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormattingIdentifier.swift; path = Aztec/Classes/GUI/FormatBar/FormattingIdentifier.swift; sourceTree = "<group>"; };
+		520F286BE6E8C897672D9BA39F0350AE /* ParagraphStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParagraphStyle.swift; path = Aztec/Classes/TextKit/ParagraphStyle.swift; sourceTree = "<group>"; };
+		56207394372C959164D35D4B678A7467 /* ImageElementConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageElementConverter.swift; path = Aztec/Classes/Converters/ElementsToAttributedString/Implementations/ImageElementConverter.swift; sourceTree = "<group>"; };
+		56E004C0B389BDCA7D4F5E63C6F80E2C /* CommentAttachmentToElementConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommentAttachmentToElementConverter.swift; path = Aztec/Classes/NSAttributedString/Conversions/AttachmentToElementConverter/CommentAttachmentToElementConverter.swift; sourceTree = "<group>"; };
+		57007295C7536DC522B413BC9C2F84F0 /* Attribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attribute.swift; path = Aztec/Classes/Libxml2/DOM/Data/Attribute.swift; sourceTree = "<group>"; };
+		5B90B66077655DB8E7011064E328AAED /* CiteFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CiteFormatter.swift; path = Aztec/Classes/Formatters/Implementations/CiteFormatter.swift; sourceTree = "<group>"; };
+		5D31572008D5E62F7A6FE02D56FA3E6D /* FigcaptionElementConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FigcaptionElementConverter.swift; path = Aztec/Classes/Converters/ElementsToAttributedString/Implementations/FigcaptionElementConverter.swift; sourceTree = "<group>"; };
+		5E21EA2C0F0B9D3ED406DF730BE80746 /* Plugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Plugin.swift; path = Aztec/Classes/Plugin/Plugin.swift; sourceTree = "<group>"; };
+		5EB1F670F1EB581F0F1C3F0AF2788467 /* VideoAttachment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoAttachment.swift; path = Aztec/Classes/TextKit/VideoAttachment.swift; sourceTree = "<group>"; };
+		605D2CB2EBE7037B894E3DA45C0A8738 /* HTMLAttachment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLAttachment.swift; path = Aztec/Classes/TextKit/HTMLAttachment.swift; sourceTree = "<group>"; };
+		615F07A3F7B49A0BB150F5698FD436C7 /* HTMLPre.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLPre.swift; path = Aztec/Classes/TextKit/ParagraphProperty/HTMLPre.swift; sourceTree = "<group>"; };
+		6186BC082CCADCC2FF69FA7EC7629562 /* AttributeFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributeFormatter.swift; path = Aztec/Classes/Formatters/Base/AttributeFormatter.swift; sourceTree = "<group>"; };
+		63770B1407278265C586DA4AEF651611 /* VideoElementConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoElementConverter.swift; path = Aztec/Classes/Converters/ElementsToAttributedString/Implementations/VideoElementConverter.swift; sourceTree = "<group>"; };
+		64837F728836475817A50F6CBC959151 /* MainAttributesConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MainAttributesConverter.swift; path = Aztec/Classes/Converters/AttributesToStringAttributes/Base/MainAttributesConverter.swift; sourceTree = "<group>"; };
+		664910146C91EE578BD5626189A640D2 /* Figcaption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Figcaption.swift; path = Aztec/Classes/TextKit/ParagraphProperty/Figcaption.swift; sourceTree = "<group>"; };
+		66C051BC777EED966F91296601D42335 /* UnderlineCSSAttributeMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnderlineCSSAttributeMatcher.swift; path = Aztec/Classes/Libxml2/DOM/Logic/CSS/UnderlineCSSAttributeMatcher.swift; sourceTree = "<group>"; };
+		68D1509384C8101FA67F4291BC3462C3 /* Aztec.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Aztec.framework; path = "WordPress-Aztec-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6947AE993DE38DF848038EBCFF22D6EC /* NSAttributedString+Attachments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+Attachments.swift"; path = "Aztec/Classes/Extensions/NSAttributedString+Attachments.swift"; sourceTree = "<group>"; };
+		6975254FADF2612AC670FA6BC8C0D03B /* StringAttributeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringAttributeConverter.swift; path = Aztec/Classes/Converters/StringAttributesToAttributes/Base/StringAttributeConverter.swift; sourceTree = "<group>"; };
+		6A86FFBE129CB884C5874A53554A9AA8 /* NSAttributedStringKey+Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedStringKey+Conversion.swift"; path = "Aztec/Classes/Extensions/NSAttributedStringKey+Conversion.swift"; sourceTree = "<group>"; };
+		6D861FB6472CC5E709D452CCF5ACB6F5 /* WordPress-Aztec-iOS.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "WordPress-Aztec-iOS.bundle"; path = "WordPress-Aztec-iOS-WordPress-Aztec-iOS.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D8F3930974A6BBC6157755F4184D0DA /* CLinkedListToArrayConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLinkedListToArrayConverter.swift; path = Aztec/Classes/Converters/HTMLToElements/CLinkedListToArrayConverter.swift; sourceTree = "<group>"; };
+		6E7A2C9B7429BEE5005CCF08B72E7C15 /* BRElementConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BRElementConverter.swift; path = Aztec/Classes/Converters/ElementsToAttributedString/Implementations/BRElementConverter.swift; sourceTree = "<group>"; };
+		7185251129C4CA19525A3FEEBBD3DCB4 /* Pods-ReactNativeAztecDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReactNativeAztecDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		71CDA454605F629EF0965281BC08497D /* UIStackView+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+Helpers.swift"; path = "Aztec/Classes/Extensions/UIStackView+Helpers.swift"; sourceTree = "<group>"; };
+		7280DD1793B1EE02AE4186FEF0CA87EF /* WordPress-Aztec-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WordPress-Aztec-iOS-Info.plist"; sourceTree = "<group>"; };
+		7362FD2AF4DB2F7A982EAD1ACEE404A4 /* UnderlineStringAttributeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnderlineStringAttributeConverter.swift; path = Aztec/Classes/Converters/StringAttributesToAttributes/Implementations/UnderlineStringAttributeConverter.swift; sourceTree = "<group>"; };
+		73D571E18C95D56D99B7B40D7985FBBB /* BlockquoteFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockquoteFormatter.swift; path = Aztec/Classes/Formatters/Implementations/BlockquoteFormatter.swift; sourceTree = "<group>"; };
+		7971B69AA86B9DDA9AFF29810515B542 /* Array+ShortcodeAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+ShortcodeAttribute.swift"; path = "Aztec/Classes/Extensions/Array+ShortcodeAttribute.swift"; sourceTree = "<group>"; };
+		7B2277EEC1776C05C760055F7E5E93EB /* PluginManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PluginManager.swift; path = Aztec/Classes/Plugin/PluginManager.swift; sourceTree = "<group>"; };
+		7B6BEDA285FD23FDF3AADF98D33FFD2C /* NSAttributedString+Lists.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+Lists.swift"; path = "Aztec/Classes/Extensions/NSAttributedString+Lists.swift"; sourceTree = "<group>"; };
+		7E2BE6221B2A2AC047AC59A8BB0D1780 /* NSMutableAttributedString+ReplaceOcurrences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSMutableAttributedString+ReplaceOcurrences.swift"; path = "Aztec/Classes/Extensions/NSMutableAttributedString+ReplaceOcurrences.swift"; sourceTree = "<group>"; };
+		7F706FA9031E71B33AAACE4A3A6E11C9 /* LinkFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinkFormatter.swift; path = Aztec/Classes/Formatters/Implementations/LinkFormatter.swift; sourceTree = "<group>"; };
+		7FF0D6ED8CB282BBAC7F91215C10D7DA /* CommentNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommentNode.swift; path = Aztec/Classes/Libxml2/DOM/Data/CommentNode.swift; sourceTree = "<group>"; };
+		81A6227A031279113EC12786B63DC04F /* CSSAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSSAttribute.swift; path = Aztec/Classes/Libxml2/DOM/Data/CSSAttribute.swift; sourceTree = "<group>"; };
+		830B7534874466D688DCEAAA2D05671F /* Pods_ReactNativeAztecDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReactNativeAztecDemo.framework; path = "Pods-ReactNativeAztecDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83576F1047D9A5756D8A925D759EA8D5 /* NSAttributedString+ParagraphRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+ParagraphRange.swift"; path = "Aztec/Classes/Extensions/NSAttributedString+ParagraphRange.swift"; sourceTree = "<group>"; };
+		84625AA99A8ECBEDD89157964BF94A59 /* ItalicElementAttributeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ItalicElementAttributeConverter.swift; path = Aztec/Classes/Converters/AttributesToStringAttributes/Implementations/ItalicElementAttributeConverter.swift; sourceTree = "<group>"; };
+		851E9982421D8DF21F286E45FBE6741D /* LineAttachmentToElementConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineAttachmentToElementConverter.swift; path = Aztec/Classes/NSAttributedString/Conversions/AttachmentToElementConverter/LineAttachmentToElementConverter.swift; sourceTree = "<group>"; };
+		87550A5EC335A760D81C9234E04F327A /* UIFont+Emoji.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+Emoji.swift"; path = "Aztec/Classes/Extensions/UIFont+Emoji.swift"; sourceTree = "<group>"; };
+		87ABD0447217D7AF432F55B64589C0A5 /* UnderlineFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnderlineFormatter.swift; path = Aztec/Classes/Formatters/Implementations/UnderlineFormatter.swift; sourceTree = "<group>"; };
+		8BC18A2832C97AF330CA35F1C6C19EAD /* HRElementConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HRElementConverter.swift; path = Aztec/Classes/Converters/ElementsToAttributedString/Implementations/HRElementConverter.swift; sourceTree = "<group>"; };
+		9098CA649CFA07941FAC78AC5B01ECD8 /* Pods-ReactNativeAztecDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReactNativeAztecDemo-Info.plist"; sourceTree = "<group>"; };
+		91D99E1A19DCDD7828BFA89AB3A5A4D6 /* Pods-ReactNativeAztecDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactNativeAztecDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9A7FF7E0F0870F98F0E980A4CB2A034B /* NSAttributedString+FontTraits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+FontTraits.swift"; path = "Aztec/Classes/Extensions/NSAttributedString+FontTraits.swift"; sourceTree = "<group>"; };
+		9B15983F915E079FAAF648D45C87353A /* WordPress-Aztec-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WordPress-Aztec-iOS-dummy.m"; sourceTree = "<group>"; };
+		9B5A416BC0F310A983F9BD2367ADAAB0 /* BoldElementAttributeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoldElementAttributeConverter.swift; path = Aztec/Classes/Converters/AttributesToStringAttributes/Implementations/BoldElementAttributeConverter.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E85BEAFD3338D5A4391AFCBB6FE2190 /* CSSAttributeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSSAttributeType.swift; path = Aztec/Classes/Libxml2/DOM/Data/CSSAttributeType.swift; sourceTree = "<group>"; };
+		A162142B2DB7DE7B1508270B3F64A262 /* ColorFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorFormatter.swift; path = Aztec/Classes/Formatters/Implementations/ColorFormatter.swift; sourceTree = "<group>"; };
+		A16993F6B7F3C4AB6ACA17185F4D9FE7 /* HTMLTreeProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLTreeProcessor.swift; path = Aztec/Classes/Processor/HTMLTreeProcessor.swift; sourceTree = "<group>"; };
+		A2AEE29D5294D390E13467B4815481E9 /* DocumentType+Swift4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DocumentType+Swift4.swift"; path = "Aztec/Classes/Extensions/DocumentType+Swift4.swift"; sourceTree = "<group>"; };
+		A45282C7C5E4668FCDE517BDD7A42EDB /* InAttributeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAttributeConverter.swift; path = Aztec/Classes/Libxml2/Converters/In/InAttributeConverter.swift; sourceTree = "<group>"; };
+		A600588881CEC8543E491ABCA71962B1 /* HTMLAttachmentToElementConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLAttachmentToElementConverter.swift; path = Aztec/Classes/NSAttributedString/Conversions/AttachmentToElementConverter/HTMLAttachmentToElementConverter.swift; sourceTree = "<group>"; };
+		A61141FE4309D14CD39B930B2ACFB3D4 /* ElementToStringConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElementToStringConverter.swift; path = Aztec/Classes/Converters/ElementsToHTML/Base/ElementToStringConverter.swift; sourceTree = "<group>"; };
+		A7053DB67793771C704454DBBA6789D4 /* NSTextingResult+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTextingResult+Helpers.swift"; path = "Aztec/Classes/Extensions/NSTextingResult+Helpers.swift"; sourceTree = "<group>"; };
+		A80AFFD7C1E3459FAE1D92C8E1E4E0B6 /* ItalicStringAttributeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ItalicStringAttributeConverter.swift; path = Aztec/Classes/Converters/StringAttributesToAttributes/Implementations/ItalicStringAttributeConverter.swift; sourceTree = "<group>"; };
+		A87E1CA842BFF20FCC7B35BB0FEB3633 /* UIPasteboard+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPasteboard+Helpers.swift"; path = "Aztec/Classes/Extensions/UIPasteboard+Helpers.swift"; sourceTree = "<group>"; };
+		AD061C7923459E7710760C54DF8AE2B6 /* NSLayoutManager+Attachments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutManager+Attachments.swift"; path = "Aztec/Classes/Extensions/NSLayoutManager+Attachments.swift"; sourceTree = "<group>"; };
+		AF197135536EC31ABB60FD332D7BFFD5 /* NSAttributedString+Analyzers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+Analyzers.swift"; path = "Aztec/Classes/Extensions/NSAttributedString+Analyzers.swift"; sourceTree = "<group>"; };
+		B0CDC1B68E8BFD4FA6BE4E9A1DD2E281 /* AttributedStringParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributedStringParser.swift; path = Aztec/Classes/NSAttributedString/Conversions/AttributedStringParser.swift; sourceTree = "<group>"; };
+		B100E2DE60544A9CAA7148187A556E40 /* String+RangeConversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+RangeConversion.swift"; path = "Aztec/Classes/Extensions/String+RangeConversion.swift"; sourceTree = "<group>"; };
+		B1B161026B3B55CEC17A49AD62E81855 /* StrikethroughFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StrikethroughFormatter.swift; path = Aztec/Classes/Formatters/Implementations/StrikethroughFormatter.swift; sourceTree = "<group>"; };
+		B1D15128B7C638547DF166B86964F239 /* HTMLParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLParser.swift; path = Aztec/Classes/Libxml2/Converters/In/HTMLParser.swift; sourceTree = "<group>"; };
+		B4179CCD8982923A7B2A95E4BF8F0AA8 /* ImageAttachment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageAttachment.swift; path = Aztec/Classes/TextKit/ImageAttachment.swift; sourceTree = "<group>"; };
+		B4B3CAEC9EACEC75B2BAA14D34F6D6E4 /* StandardAttributeFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StandardAttributeFormatter.swift; path = Aztec/Classes/Formatters/Base/StandardAttributeFormatter.swift; sourceTree = "<group>"; };
+		B61DF8402B054258C7CBBDC4978BDB77 /* GenericElementConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericElementConverter.swift; path = Aztec/Classes/Converters/ElementsToAttributedString/Implementations/GenericElementConverter.swift; sourceTree = "<group>"; };
+		B64097B5066CA2F734248953221E6208 /* FormatBarDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatBarDelegate.swift; path = Aztec/Classes/GUI/FormatBar/FormatBarDelegate.swift; sourceTree = "<group>"; };
+		B865294E7EBDC227651059279A5F6EDF /* String+CharacterName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+CharacterName.swift"; path = "Aztec/Classes/Extensions/String+CharacterName.swift"; sourceTree = "<group>"; };
+		B947A6AD6CA304715AF31715180F393A /* WordPress-Aztec-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WordPress-Aztec-iOS-prefix.pch"; sourceTree = "<group>"; };
+		BB004EEF6617E48633023EECFA5D7F01 /* InNodesConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InNodesConverter.swift; path = Aztec/Classes/Libxml2/Converters/In/InNodesConverter.swift; sourceTree = "<group>"; };
+		BC2386E0AA0B3D42699B9175AD4BD8CB /* DocumentReadingOptionKey+Swift4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DocumentReadingOptionKey+Swift4.swift"; path = "Aztec/Classes/Extensions/DocumentReadingOptionKey+Swift4.swift"; sourceTree = "<group>"; };
+		BE7C6B1534364E70C84674915D8CC4F0 /* String+EndOfLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+EndOfLine.swift"; path = "Aztec/Classes/Extensions/String+EndOfLine.swift"; sourceTree = "<group>"; };
+		C09DD84DD53497F1E5E02A1C4D208EFF /* ElementConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElementConverter.swift; path = Aztec/Classes/Converters/ElementsToAttributedString/Base/ElementConverter.swift; sourceTree = "<group>"; };
+		C309EE8FF1FBFA2EFAB3CF3B4ACE048A /* FigcaptionFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FigcaptionFormatter.swift; path = Aztec/Classes/Formatters/Implementations/FigcaptionFormatter.swift; sourceTree = "<group>"; };
+		C4D0E71B7C55A60B6726C7D015E1D1E9 /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = Aztec/Classes/Libxml2/DOM/Data/Element.swift; sourceTree = "<group>"; };
+		C4F7673C63D68426FB8B4FD627041869 /* HTMLStyleToggler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLStyleToggler.swift; path = Aztec/Classes/Converters/StringAttributesToAttributes/Utility/HTMLStyleToggler.swift; sourceTree = "<group>"; };
+		C72072EBAC5E9643DDAC25280E77965A /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Aztec/Assets/Media.xcassets; sourceTree = "<group>"; };
+		C79184D593F96B9CD4E6B78E893C3097 /* FormatBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatBar.swift; path = Aztec/Classes/GUI/FormatBar/FormatBar.swift; sourceTree = "<group>"; };
+		C7A4B0A1750303B42C964673F3C3C2E8 /* RenderableAttachment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RenderableAttachment.swift; path = Aztec/Classes/TextKit/RenderableAttachment.swift; sourceTree = "<group>"; };
+		C7A78FD74680A5C95F4F5FD95B9C3A75 /* Pods-ReactNativeAztecDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactNativeAztecDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C7C0529C905886D1003675AE693179AC /* Array+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Helpers.swift"; path = "Aztec/Classes/Extensions/Array+Helpers.swift"; sourceTree = "<group>"; };
+		C7CA4D9419A61726CD15077D84527052 /* TextList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextList.swift; path = Aztec/Classes/TextKit/ParagraphProperty/TextList.swift; sourceTree = "<group>"; };
+		C873A065BBE7247184CB36D92C487C45 /* FormatterElementConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatterElementConverter.swift; path = Aztec/Classes/Converters/ElementsToAttributedString/Base/FormatterElementConverter.swift; sourceTree = "<group>"; };
+		C87F5F0D1DC835238F109A25B9A26C39 /* HTMLStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLStorage.swift; path = Aztec/Classes/TextKit/HTMLStorage.swift; sourceTree = "<group>"; };
+		C8E113A8A4F307500273B3AB0A9D2C27 /* FigureFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FigureFormatter.swift; path = Aztec/Classes/Formatters/Implementations/FigureFormatter.swift; sourceTree = "<group>"; };
+		C8F65AFB9E5498C856915C8673B0DDCE /* Assets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assets.swift; path = Aztec/Classes/GUI/Assets.swift; sourceTree = "<group>"; };
+		C914437F8EB1D8B42E3D0010F008123E /* Metrics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Metrics.swift; path = Aztec/Classes/Constants/Metrics.swift; sourceTree = "<group>"; };
+		C94D336F54064FDF7FEB58C3FD79B74F /* Pods-ReactNativeAztecDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReactNativeAztecDemo.modulemap"; sourceTree = "<group>"; };
+		CB2C3D876C62BE77CF59BF50AC72BDD3 /* UIImage+Resize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Resize.swift"; path = "Aztec/Classes/Extensions/UIImage+Resize.swift"; sourceTree = "<group>"; };
+		CE42B518FDAD685361A7E866BB737408 /* BoldCSSAttributeMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoldCSSAttributeMatcher.swift; path = Aztec/Classes/Libxml2/DOM/Logic/CSS/BoldCSSAttributeMatcher.swift; sourceTree = "<group>"; };
+		CE890D120CE8AD9E798D476E5CDEDF7C /* Pods-ReactNativeAztecDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReactNativeAztecDemo-dummy.m"; sourceTree = "<group>"; };
+		CFC44317CEBF000DC225D2BE3833175E /* UIColor+Parsers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Parsers.swift"; path = "Aztec/Classes/Extensions/UIColor+Parsers.swift"; sourceTree = "<group>"; };
+		D078270AFDA9D4C398B5C4A29B978C86 /* NSAttributedString+ReplaceOcurrences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+ReplaceOcurrences.swift"; path = "Aztec/Classes/Extensions/NSAttributedString+ReplaceOcurrences.swift"; sourceTree = "<group>"; };
+		D0F2D7FCA2A14A7B7811ABC9376B5FD3 /* HTMLParagraph.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLParagraph.swift; path = Aztec/Classes/TextKit/ParagraphProperty/HTMLParagraph.swift; sourceTree = "<group>"; };
+		D195587CCD6722600E187A89DA36A9CB /* AttributeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributeType.swift; path = Aztec/Classes/Libxml2/DOM/Data/AttributeType.swift; sourceTree = "<group>"; };
+		D4A0AB15EC2FFA8F0EE1D8D8844B395A /* BoldStringAttributeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoldStringAttributeConverter.swift; path = Aztec/Classes/Converters/StringAttributesToAttributes/Implementations/BoldStringAttributeConverter.swift; sourceTree = "<group>"; };
+		D7E11AAACF53CF681297577EB9C080C2 /* ParagraphProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParagraphProperty.swift; path = Aztec/Classes/TextKit/ParagraphProperty/ParagraphProperty.swift; sourceTree = "<group>"; };
+		D8A17571D04E8C57BC5978D3EDBB106B /* Array+Attribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Attribute.swift"; path = "Aztec/Classes/Extensions/Array+Attribute.swift"; sourceTree = "<group>"; };
+		D8B0AC3D6E2C7893FD498CBBAB46E7CA /* ElementNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElementNode.swift; path = Aztec/Classes/Libxml2/DOM/Data/ElementNode.swift; sourceTree = "<group>"; };
+		D95B6289C8E27ABE7F53AC30E1DA1386 /* PluginInputCustomizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PluginInputCustomizer.swift; path = Aztec/Classes/Plugin/PluginInputCustomizer.swift; sourceTree = "<group>"; };
+		DA6B99A6E84E3DC908F008892C7F0196 /* Blockquote.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blockquote.swift; path = Aztec/Classes/TextKit/ParagraphProperty/Blockquote.swift; sourceTree = "<group>"; };
+		DA9D6C1829F049A8FAB0A2B1540A6EAD /* ParagraphPropertyConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParagraphPropertyConverter.swift; path = Aztec/Classes/NSAttributedString/Conversions/ParagraphPropertyConverters/Base/ParagraphPropertyConverter.swift; sourceTree = "<group>"; };
+		DCF07F92635BA165A75CEAE0AFCBB853 /* Dictionary+AttributedStringKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary+AttributedStringKey.swift"; path = "Aztec/Classes/Extensions/Dictionary+AttributedStringKey.swift"; sourceTree = "<group>"; };
+		DFBDC5C853AAE36CB9DAEA785A8FE934 /* FigureElementConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FigureElementConverter.swift; path = Aztec/Classes/Converters/ElementsToAttributedString/Implementations/FigureElementConverter.swift; sourceTree = "<group>"; };
+		E04D56D0DD0E3E8D4EA78DDAA1D51D9A /* ElementAttributeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElementAttributeConverter.swift; path = Aztec/Classes/Converters/AttributesToStringAttributes/Base/ElementAttributeConverter.swift; sourceTree = "<group>"; };
+		E19DF8FE5FAD728374B5943FA37926E9 /* CommentAttachmentRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommentAttachmentRenderer.swift; path = Aztec/Classes/Renderers/CommentAttachmentRenderer.swift; sourceTree = "<group>"; };
+		E2FEB1EBEC2BCB62F40743FE0813A47F /* InAttributesConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAttributesConverter.swift; path = Aztec/Classes/Libxml2/Converters/In/InAttributesConverter.swift; sourceTree = "<group>"; };
+		E4FD625500DE8D84BF48CBD1A5294725 /* CodeFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodeFormatter.swift; path = Aztec/Classes/Formatters/Implementations/CodeFormatter.swift; sourceTree = "<group>"; };
+		E779BA0B570A3AC1FAC12154448BFE8B /* ItalicFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ItalicFormatter.swift; path = Aztec/Classes/Formatters/Implementations/ItalicFormatter.swift; sourceTree = "<group>"; };
+		E8CE0E16A229FFC5682EE1B48B906361 /* StringUTF16+RangeConversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringUTF16+RangeConversion.swift"; path = "Aztec/Classes/Extensions/StringUTF16+RangeConversion.swift"; sourceTree = "<group>"; };
+		E966146F9F8AB370EE25907D648983DE /* HTMLParagraphFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLParagraphFormatter.swift; path = Aztec/Classes/Formatters/Implementations/HTMLParagraphFormatter.swift; sourceTree = "<group>"; };
+		EB11C5786B54E2EAF4AD183D75EBBF12 /* UITextView+Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextView+Delegate.swift"; path = "Aztec/Classes/Extensions/UITextView+Delegate.swift"; sourceTree = "<group>"; };
+		EDA71080A7EF6D8F3F6D0CE15C06DEBD /* HTMLDiv.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLDiv.swift; path = Aztec/Classes/TextKit/ParagraphProperty/HTMLDiv.swift; sourceTree = "<group>"; };
+		EEFEAD9DD87AF45952BA9725A8D26B62 /* PluginOutputCustomizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PluginOutputCustomizer.swift; path = Aztec/Classes/Plugin/PluginOutputCustomizer.swift; sourceTree = "<group>"; };
+		EF8F70448597DEE5D4BDF430649C46D5 /* ItalicCSSAttributeMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ItalicCSSAttributeMatcher.swift; path = Aztec/Classes/Libxml2/DOM/Logic/CSS/ItalicCSSAttributeMatcher.swift; sourceTree = "<group>"; };
+		EFFEF56597DA6633615703E4C8BD39B8 /* ResourceBundle-WordPress-Aztec-iOS-WordPress-Aztec-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WordPress-Aztec-iOS-WordPress-Aztec-iOS-Info.plist"; sourceTree = "<group>"; };
+		F00E6221CD87C3DE3539D001FA05CCEC /* Converter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Converter.swift; path = Aztec/Classes/Converters/HTMLToElements/Converter.swift; sourceTree = "<group>"; };
+		F2B1DCA41857FB5E0A5C6A127B17E10C /* HTMLAttachmentRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLAttachmentRenderer.swift; path = Aztec/Classes/Renderers/HTMLAttachmentRenderer.swift; sourceTree = "<group>"; };
+		F2DECD7443685F25252752D9DE39E0DB /* InNodeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InNodeConverter.swift; path = Aztec/Classes/Libxml2/Converters/In/InNodeConverter.swift; sourceTree = "<group>"; };
+		F2F008C01A3C0A2F0A15348FE8618B53 /* Header.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Header.swift; path = Aztec/Classes/TextKit/ParagraphProperty/Header.swift; sourceTree = "<group>"; };
+		F358EAF3E4124B798FCEE4EF89E0C1EA /* AttributedStringSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributedStringSerializer.swift; path = Aztec/Classes/NSAttributedString/Conversions/AttributedStringSerializer.swift; sourceTree = "<group>"; };
+		F8469F757092D7BEDC5C87837B8A1569 /* CommentAttachment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommentAttachment.swift; path = Aztec/Classes/TextKit/CommentAttachment.swift; sourceTree = "<group>"; };
+		F94F8B8350B6E7541A6DAF85EB10F46B /* LiFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LiFormatter.swift; path = Aztec/Classes/Formatters/Implementations/LiFormatter.swift; sourceTree = "<group>"; };
+		FAB5B30F038078D1757B7E7BA3F23C84 /* HTMLSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLSerializer.swift; path = Aztec/Classes/Libxml2/Converters/Out/HTMLSerializer.swift; sourceTree = "<group>"; };
+		FC7563324DF12C7AAFF79FFB6FAB74FA /* UnsupportedHTML.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnsupportedHTML.swift; path = Aztec/Classes/NSAttributedString/Attributes/UnsupportedHTML.swift; sourceTree = "<group>"; };
+		FD7C80BDEC5EDFDCCDFD0BC8CC6BE6C0 /* Pods-ReactNativeAztecDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReactNativeAztecDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF3D0CF5BF2DDCAB5A8DB00729242095 /* TextListFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextListFormatter.swift; path = Aztec/Classes/Formatters/Implementations/TextListFormatter.swift; sourceTree = "<group>"; };
+		FFAB3FAA748E80C92EACA47623A0E3E3 /* HeaderFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderFormatter.swift; path = Aztec/Classes/Formatters/Implementations/HeaderFormatter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FB2FEA49067D1A88E55535977893C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1706074B673EAA1027F27A8F675112D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4659E6820605FCD6502DBFBEA2AADA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6839B8056D4A3B28EEBA2C6DA06C41D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E410FCF26AFEC7E40078D70BC70651DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E7593DD7CEC4A73923CEB5C1FA64DC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8570587C90371EB8C54003161507EF98 /* WordPress-Aztec-iOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3819140ED15C2CAF9619BC91D111907F /* Pods-ReactNativeAztecDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C94D336F54064FDF7FEB58C3FD79B74F /* Pods-ReactNativeAztecDemo.modulemap */,
+				7185251129C4CA19525A3FEEBBD3DCB4 /* Pods-ReactNativeAztecDemo-acknowledgements.markdown */,
+				FD7C80BDEC5EDFDCCDFD0BC8CC6BE6C0 /* Pods-ReactNativeAztecDemo-acknowledgements.plist */,
+				CE890D120CE8AD9E798D476E5CDEDF7C /* Pods-ReactNativeAztecDemo-dummy.m */,
+				07F5CBCB369C00D3B427F3F1E406433E /* Pods-ReactNativeAztecDemo-frameworks.sh */,
+				9098CA649CFA07941FAC78AC5B01ECD8 /* Pods-ReactNativeAztecDemo-Info.plist */,
+				42C961F9F3A951FFC2CB93216569D17D /* Pods-ReactNativeAztecDemo-umbrella.h */,
+				C7A78FD74680A5C95F4F5FD95B9C3A75 /* Pods-ReactNativeAztecDemo.debug.xcconfig */,
+				91D99E1A19DCDD7828BFA89AB3A5A4D6 /* Pods-ReactNativeAztecDemo.release.xcconfig */,
+			);
+			name = "Pods-ReactNativeAztecDemo";
+			path = "Target Support Files/Pods-ReactNativeAztecDemo";
+			sourceTree = "<group>";
+		};
+		44E32921A7C19322ED89F568D2370614 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFFEF56597DA6633615703E4C8BD39B8 /* ResourceBundle-WordPress-Aztec-iOS-WordPress-Aztec-iOS-Info.plist */,
+				0334ECACB7F12340B294177F8C3758FA /* WordPress-Aztec-iOS.modulemap */,
+				1FBB1598FDA549194A5C91382FD32228 /* WordPress-Aztec-iOS.xcconfig */,
+				9B15983F915E079FAAF648D45C87353A /* WordPress-Aztec-iOS-dummy.m */,
+				7280DD1793B1EE02AE4186FEF0CA87EF /* WordPress-Aztec-iOS-Info.plist */,
+				B947A6AD6CA304715AF31715180F393A /* WordPress-Aztec-iOS-prefix.pch */,
+				4A1F192331445DBFC098BB2DDE065095 /* WordPress-Aztec-iOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WordPress-Aztec-iOS";
+			sourceTree = "<group>";
+		};
+		8570587C90371EB8C54003161507EF98 /* WordPress-Aztec-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D8A17571D04E8C57BC5978D3EDBB106B /* Array+Attribute.swift */,
+				C7C0529C905886D1003675AE693179AC /* Array+Helpers.swift */,
+				7971B69AA86B9DDA9AFF29810515B542 /* Array+ShortcodeAttribute.swift */,
+				C8F65AFB9E5498C856915C8673B0DDCE /* Assets.swift */,
+				249B648C656573F5C510586B7E6003F5 /* AttachmentElementConverter.swift */,
+				32957C6AC80AEBC9F40BB73D932BD066 /* AttachmentToElementConverter.swift */,
+				57007295C7536DC522B413BC9C2F84F0 /* Attribute.swift */,
+				B0CDC1B68E8BFD4FA6BE4E9A1DD2E281 /* AttributedStringParser.swift */,
+				F358EAF3E4124B798FCEE4EF89E0C1EA /* AttributedStringSerializer.swift */,
+				6186BC082CCADCC2FF69FA7EC7629562 /* AttributeFormatter.swift */,
+				D195587CCD6722600E187A89DA36A9CB /* AttributeType.swift */,
+				DA6B99A6E84E3DC908F008892C7F0196 /* Blockquote.swift */,
+				73D571E18C95D56D99B7B40D7985FBBB /* BlockquoteFormatter.swift */,
+				CE42B518FDAD685361A7E866BB737408 /* BoldCSSAttributeMatcher.swift */,
+				9B5A416BC0F310A983F9BD2367ADAAB0 /* BoldElementAttributeConverter.swift */,
+				4A5D2917D763023BD66005C9B928A60F /* BoldFormatter.swift */,
+				D4A0AB15EC2FFA8F0EE1D8D8844B395A /* BoldStringAttributeConverter.swift */,
+				6E7A2C9B7429BEE5005CCF08B72E7C15 /* BRElementConverter.swift */,
+				1BAC2E0CB77C10D5F646BB9BADA65311 /* Character+Name.swift */,
+				1A77E871919F65C163DF92A53944D32B /* CiteElementConverter.swift */,
+				5B90B66077655DB8E7011064E328AAED /* CiteFormatter.swift */,
+				356E8042C702720F84ACED4294F3C509 /* CiteStringAttributeConverter.swift */,
+				6D8F3930974A6BBC6157755F4184D0DA /* CLinkedListToArrayConverter.swift */,
+				E4FD625500DE8D84BF48CBD1A5294725 /* CodeFormatter.swift */,
+				A162142B2DB7DE7B1508270B3F64A262 /* ColorFormatter.swift */,
+				F8469F757092D7BEDC5C87837B8A1569 /* CommentAttachment.swift */,
+				E19DF8FE5FAD728374B5943FA37926E9 /* CommentAttachmentRenderer.swift */,
+				56E004C0B389BDCA7D4F5E63C6F80E2C /* CommentAttachmentToElementConverter.swift */,
+				7FF0D6ED8CB282BBAC7F91215C10D7DA /* CommentNode.swift */,
+				1EB125AB1DA356D6E984ECA89CA6FF89 /* ConditionalItalicStringAttributeConverter.swift */,
+				0FA0539B7C53A4155E2DCBEF0ADEB549 /* ConditionalStringAttributeConverter.swift */,
+				F00E6221CD87C3DE3539D001FA05CCEC /* Converter.swift */,
+				81A6227A031279113EC12786B63DC04F /* CSSAttribute.swift */,
+				1B5570CD8F99F907FF0DAAED7A729119 /* CSSAttributeMatcher.swift */,
+				9E85BEAFD3338D5A4391AFCBB6FE2190 /* CSSAttributeType.swift */,
+				3FE7A7E8632C6769876AA2C60178EF2B /* CSSParser.swift */,
+				DCF07F92635BA165A75CEAE0AFCBB853 /* Dictionary+AttributedStringKey.swift */,
+				BC2386E0AA0B3D42699B9175AD4BD8CB /* DocumentReadingOptionKey+Swift4.swift */,
+				A2AEE29D5294D390E13467B4815481E9 /* DocumentType+Swift4.swift */,
+				0A0BB70C8997913F0F1BC4BB1AA89601 /* EditorView.swift */,
+				C4D0E71B7C55A60B6726C7D015E1D1E9 /* Element.swift */,
+				E04D56D0DD0E3E8D4EA78DDAA1D51D9A /* ElementAttributeConverter.swift */,
+				C09DD84DD53497F1E5E02A1C4D208EFF /* ElementConverter.swift */,
+				D8B0AC3D6E2C7893FD498CBBAB46E7CA /* ElementNode.swift */,
+				A61141FE4309D14CD39B930B2ACFB3D4 /* ElementToStringConverter.swift */,
+				664910146C91EE578BD5626189A640D2 /* Figcaption.swift */,
+				5D31572008D5E62F7A6FE02D56FA3E6D /* FigcaptionElementConverter.swift */,
+				C309EE8FF1FBFA2EFAB3CF3B4ACE048A /* FigcaptionFormatter.swift */,
+				14D3EEBC18707FB95F6176EAB277AF58 /* Figure.swift */,
+				DFBDC5C853AAE36CB9DAEA785A8FE934 /* FigureElementConverter.swift */,
+				C8E113A8A4F307500273B3AB0A9D2C27 /* FigureFormatter.swift */,
+				4B334DA68D558E2472093B3A7EE826BA /* FontFormatter.swift */,
+				C79184D593F96B9CD4E6B78E893C3097 /* FormatBar.swift */,
+				B64097B5066CA2F734248953221E6208 /* FormatBarDelegate.swift */,
+				02E2E91C263FAEB5EDD2424E582C8D7C /* FormatBarItem.swift */,
+				C873A065BBE7247184CB36D92C487C45 /* FormatterElementConverter.swift */,
+				4FC49C6D6A2AA88C2859E8CC5D8162C1 /* FormattingIdentifier.swift */,
+				B61DF8402B054258C7CBBDC4978BDB77 /* GenericElementConverter.swift */,
+				0E509200F4573DAE7835862AB2B8D7A0 /* GenericElementToTagConverter.swift */,
+				F2F008C01A3C0A2F0A15348FE8618B53 /* Header.swift */,
+				FFAB3FAA748E80C92EACA47623A0E3E3 /* HeaderFormatter.swift */,
+				8BC18A2832C97AF330CA35F1C6C19EAD /* HRElementConverter.swift */,
+				605D2CB2EBE7037B894E3DA45C0A8738 /* HTMLAttachment.swift */,
+				F2B1DCA41857FB5E0A5C6A127B17E10C /* HTMLAttachmentRenderer.swift */,
+				A600588881CEC8543E491ABCA71962B1 /* HTMLAttachmentToElementConverter.swift */,
+				01DEBB2BFD3F9B808D1B25EF1C7C8554 /* HTMLConverter.swift */,
+				EDA71080A7EF6D8F3F6D0CE15C06DEBD /* HTMLDiv.swift */,
+				2F0E36B4FB7B4CAF2DD00964408DCEBE /* HTMLDivFormatter.swift */,
+				2CE1E1C272FF250BA30F8626E59EB5B1 /* HTMLLi.swift */,
+				D0F2D7FCA2A14A7B7811ABC9376B5FD3 /* HTMLParagraph.swift */,
+				E966146F9F8AB370EE25907D648983DE /* HTMLParagraphFormatter.swift */,
+				B1D15128B7C638547DF166B86964F239 /* HTMLParser.swift */,
+				615F07A3F7B49A0BB150F5698FD436C7 /* HTMLPre.swift */,
+				47B1C67253776FEB00F462459CD9D0AC /* HTMLProcessor.swift */,
+				0461C7B81364F73424471ADC93F4C4D7 /* HTMLRepresentation.swift */,
+				FAB5B30F038078D1757B7E7BA3F23C84 /* HTMLSerializer.swift */,
+				C87F5F0D1DC835238F109A25B9A26C39 /* HTMLStorage.swift */,
+				C4F7673C63D68426FB8B4FD627041869 /* HTMLStyleToggler.swift */,
+				A16993F6B7F3C4AB6ACA17185F4D9FE7 /* HTMLTreeProcessor.swift */,
+				B4179CCD8982923A7B2A95E4BF8F0AA8 /* ImageAttachment.swift */,
+				2171144E898986091D34775F70378794 /* ImageAttachmentToElementConverter.swift */,
+				56207394372C959164D35D4B678A7467 /* ImageElementConverter.swift */,
+				A45282C7C5E4668FCDE517BDD7A42EDB /* InAttributeConverter.swift */,
+				E2FEB1EBEC2BCB62F40743FE0813A47F /* InAttributesConverter.swift */,
+				F2DECD7443685F25252752D9DE39E0DB /* InNodeConverter.swift */,
+				BB004EEF6617E48633023EECFA5D7F01 /* InNodesConverter.swift */,
+				EF8F70448597DEE5D4BDF430649C46D5 /* ItalicCSSAttributeMatcher.swift */,
+				84625AA99A8ECBEDD89157964BF94A59 /* ItalicElementAttributeConverter.swift */,
+				E779BA0B570A3AC1FAC12154448BFE8B /* ItalicFormatter.swift */,
+				A80AFFD7C1E3459FAE1D92C8E1E4E0B6 /* ItalicStringAttributeConverter.swift */,
+				116B20290F7CAE473ED5D6F025E85A12 /* LayoutManager.swift */,
+				F94F8B8350B6E7541A6DAF85EB10F46B /* LiFormatter.swift */,
+				3D4EA81BB96D819BBBAAF004142D1809 /* LineAttachment.swift */,
+				851E9982421D8DF21F286E45FBE6741D /* LineAttachmentToElementConverter.swift */,
+				7F706FA9031E71B33AAACE4A3A6E11C9 /* LinkFormatter.swift */,
+				64837F728836475817A50F6CBC959151 /* MainAttributesConverter.swift */,
+				0E2DF53CCADAF4BEDE0F832BC53B6A61 /* MediaAttachment.swift */,
+				C914437F8EB1D8B42E3D0010F008123E /* Metrics.swift */,
+				11E6C9EF9FB2B18576DBC8363C289958 /* Node.swift */,
+				AF197135536EC31ABB60FD332D7BFFD5 /* NSAttributedString+Analyzers.swift */,
+				3EDE9A4CFF75462924C52EF32DCD94E2 /* NSAttributedString+Archive.swift */,
+				6947AE993DE38DF848038EBCFF22D6EC /* NSAttributedString+Attachments.swift */,
+				43EC7418F65592F560C58338EACB15E9 /* NSAttributedString+CharacterName.swift */,
+				9A7FF7E0F0870F98F0E980A4CB2A034B /* NSAttributedString+FontTraits.swift */,
+				7B6BEDA285FD23FDF3AADF98D33FFD2C /* NSAttributedString+Lists.swift */,
+				83576F1047D9A5756D8A925D759EA8D5 /* NSAttributedString+ParagraphRange.swift */,
+				D078270AFDA9D4C398B5C4A29B978C86 /* NSAttributedString+ReplaceOcurrences.swift */,
+				3AA8EABBA2F7F30A478D6C7166AEE172 /* NSAttributedStringKey+Aztec.swift */,
+				6A86FFBE129CB884C5874A53554A9AA8 /* NSAttributedStringKey+Conversion.swift */,
+				4E875FFF52F9D53AF9141D8D385102C6 /* NSBundle+AztecBundle.swift */,
+				AD061C7923459E7710760C54DF8AE2B6 /* NSLayoutManager+Attachments.swift */,
+				4CEBCA147A02DE2A60D0D31FFF54AEF3 /* NSMutableAttributedString+ParagraphProperty.swift */,
+				7E2BE6221B2A2AC047AC59A8BB0D1780 /* NSMutableAttributedString+ReplaceOcurrences.swift */,
+				25823877EFE7A8D17BBE0A9423F1D75C /* NSRange+Helpers.swift */,
+				A7053DB67793771C704454DBBA6789D4 /* NSTextingResult+Helpers.swift */,
+				1B2E000698936A2F796A743D7C0A3E1A /* ParagraphAttributeFormatter.swift */,
+				D7E11AAACF53CF681297577EB9C080C2 /* ParagraphProperty.swift */,
+				DA9D6C1829F049A8FAB0A2B1540A6EAD /* ParagraphPropertyConverter.swift */,
+				520F286BE6E8C897672D9BA39F0350AE /* ParagraphStyle.swift */,
+				24A2737BBE088197642DF5344349BDF9 /* PipelineProcessor.swift */,
+				5E21EA2C0F0B9D3ED406DF730BE80746 /* Plugin.swift */,
+				D95B6289C8E27ABE7F53AC30E1DA1386 /* PluginInputCustomizer.swift */,
+				7B2277EEC1776C05C760055F7E5E93EB /* PluginManager.swift */,
+				EEFEAD9DD87AF45952BA9725A8D26B62 /* PluginOutputCustomizer.swift */,
+				1B5008D54A95287C982A2158CD8B4288 /* PreFormatter.swift */,
+				293769AC3F111BD4310FB7C7AEED846A /* Processor.swift */,
+				131A2D53FD8B3AADDEF1A3E53B90650D /* RegexProcessor.swift */,
+				C7A4B0A1750303B42C964673F3C3C2E8 /* RenderableAttachment.swift */,
+				0BFD249D48804CD1F83B141416D6CAAF /* ShortcodeAttribute.swift */,
+				376292DAF7DADE83657443258E5F8472 /* ShortcodeAttributeParser.swift */,
+				37E4A18BEFCA4C45663ECF3118B3D8CA /* ShortcodeAttributeSerializer.swift */,
+				B4B3CAEC9EACEC75B2BAA14D34F6D6E4 /* StandardAttributeFormatter.swift */,
+				B1B161026B3B55CEC17A49AD62E81855 /* StrikethroughFormatter.swift */,
+				B865294E7EBDC227651059279A5F6EDF /* String+CharacterName.swift */,
+				BE7C6B1534364E70C84674915D8CC4F0 /* String+EndOfLine.swift */,
+				285F9CCF857F8DEF00CAD759EBEE9040 /* String+HTML.swift */,
+				46DC53C7065066268E2B7885C5774AF9 /* String+Paragraph.swift */,
+				B100E2DE60544A9CAA7148187A556E40 /* String+RangeConversion.swift */,
+				6975254FADF2612AC670FA6BC8C0D03B /* StringAttributeConverter.swift */,
+				E8CE0E16A229FFC5682EE1B48B906361 /* StringUTF16+RangeConversion.swift */,
+				C7CA4D9419A61726CD15077D84527052 /* TextList.swift */,
+				FF3D0CF5BF2DDCAB5A8DB00729242095 /* TextListFormatter.swift */,
+				3938E61449AD089EDCE2C65CBB2D8C5F /* TextNode.swift */,
+				24FFD2C9B2B73FD0F00CCBA2041A0AAA /* TextStorage.swift */,
+				33AEAE334858C86547CFF84D5058687F /* TextView.swift */,
+				04EE492BD0590B22CCC14F6D02CC4FE8 /* TextViewPasteboardDelegate.swift */,
+				CFC44317CEBF000DC225D2BE3833175E /* UIColor+Parsers.swift */,
+				87550A5EC335A760D81C9234E04F327A /* UIFont+Emoji.swift */,
+				28A578356F95046341AF4A14621B6AC7 /* UIFont+Traits.swift */,
+				CB2C3D876C62BE77CF59BF50AC72BDD3 /* UIImage+Resize.swift */,
+				0D372D196FCCC27AB776C060BE965DF0 /* UILayoutPriority+Swift4.swift */,
+				A87E1CA842BFF20FCC7B35BB0FEB3633 /* UIPasteboard+Helpers.swift */,
+				71CDA454605F629EF0965281BC08497D /* UIStackView+Helpers.swift */,
+				EB11C5786B54E2EAF4AD183D75EBBF12 /* UITextView+Delegate.swift */,
+				1E9C9E86B4F28FFB1F59A2E2E2D8C0B5 /* UITextView+Undoable.swift */,
+				66C051BC777EED966F91296601D42335 /* UnderlineCSSAttributeMatcher.swift */,
+				3D74CE4DAFB6618FE7FE698BE0BC8B24 /* UnderlineElementAttributeConverter.swift */,
+				87ABD0447217D7AF432F55B64589C0A5 /* UnderlineFormatter.swift */,
+				7362FD2AF4DB2F7A982EAD1ACEE404A4 /* UnderlineStringAttributeConverter.swift */,
+				FC7563324DF12C7AAFF79FFB6FAB74FA /* UnsupportedHTML.swift */,
+				5EB1F670F1EB581F0F1C3F0AF2788467 /* VideoAttachment.swift */,
+				083436084C2EBD65B9ABA456057A6B27 /* VideoAttachmentToElementConverter.swift */,
+				63770B1407278265C586DA4AEF651611 /* VideoElementConverter.swift */,
+				AF94A1C583A7BC90DE276E8D2338DF2D /* Resources */,
+				44E32921A7C19322ED89F568D2370614 /* Support Files */,
+			);
+			name = "WordPress-Aztec-iOS";
+			path = "WordPress-Aztec-iOS";
+			sourceTree = "<group>";
+		};
+		9D19AB6EADF48834BCE4F6D55351BC13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68D1509384C8101FA67F4291BC3462C3 /* Aztec.framework */,
+				830B7534874466D688DCEAAA2D05671F /* Pods_ReactNativeAztecDemo.framework */,
+				6D861FB6472CC5E709D452CCF5ACB6F5 /* WordPress-Aztec-iOS.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF94A1C583A7BC90DE276E8D2338DF2D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C72072EBAC5E9643DDAC25280E77965A /* Media.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0E7593DD7CEC4A73923CEB5C1FA64DC9 /* Pods */,
+				9D19AB6EADF48834BCE4F6D55351BC13 /* Products */,
+				F166DC57C17DA1F9B07C29EA40D3B512 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F166DC57C17DA1F9B07C29EA40D3B512 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3819140ED15C2CAF9619BC91D111907F /* Pods-ReactNativeAztecDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6D6FFBD60291719F12AB32CFFCAA1AEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABDD31DCDAF1FB6EDF2E411742F78FB /* WordPress-Aztec-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96CFC890C04BB254ADCF9D84D48388F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443CDD139EB3EE1C8C40525B31755777 /* Pods-ReactNativeAztecDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		96A82037482FD207C9083E1FAF04A22D /* Pods-ReactNativeAztecDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D09D2903B8D306B848DCB7E5D1A1D67 /* Build configuration list for PBXNativeTarget "Pods-ReactNativeAztecDemo" */;
+			buildPhases = (
+				D96CFC890C04BB254ADCF9D84D48388F /* Headers */,
+				901AAEB506F86AEF6F1C862871B147A9 /* Sources */,
+				D4659E6820605FCD6502DBFBEA2AADA5 /* Frameworks */,
+				85E1BB3C1A91A8CAE294A327E0CC00CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1F1E57D60BD51FB51B75D4021BA60C7 /* PBXTargetDependency */,
+			);
+			name = "Pods-ReactNativeAztecDemo";
+			productName = "Pods-ReactNativeAztecDemo";
+			productReference = 830B7534874466D688DCEAAA2D05671F /* Pods_ReactNativeAztecDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ABA0D4718C58687BF396871984ED402C /* WordPress-Aztec-iOS-WordPress-Aztec-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36032018652BB3D3A49F03D8A53D834A /* Build configuration list for PBXNativeTarget "WordPress-Aztec-iOS-WordPress-Aztec-iOS" */;
+			buildPhases = (
+				FF43ABF51AFFE8B3A3E10E0B99329FB3 /* Sources */,
+				E410FCF26AFEC7E40078D70BC70651DF /* Frameworks */,
+				B980E6F260137B33B0F612B5E7123EE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WordPress-Aztec-iOS-WordPress-Aztec-iOS";
+			productName = "WordPress-Aztec-iOS-WordPress-Aztec-iOS";
+			productReference = 6D861FB6472CC5E709D452CCF5ACB6F5 /* WordPress-Aztec-iOS.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F83EA88ACC8246BD12C0AF3E84667323 /* WordPress-Aztec-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C0E3F69D554F6ABEF0324D5B844F7D /* Build configuration list for PBXNativeTarget "WordPress-Aztec-iOS" */;
+			buildPhases = (
+				6D6FFBD60291719F12AB32CFFCAA1AEA /* Headers */,
+				A4CFBECB32F5DEBAD3629BAC53F0C17D /* Sources */,
+				5FB2FEA49067D1A88E55535977893C08 /* Frameworks */,
+				A9851964207E5B03F093EB666524FDB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61821BC679B814F96C14A3FFA3F0CE95 /* PBXTargetDependency */,
+			);
+			name = "WordPress-Aztec-iOS";
+			productName = "WordPress-Aztec-iOS";
+			productReference = 68D1509384C8101FA67F4291BC3462C3 /* Aztec.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9D19AB6EADF48834BCE4F6D55351BC13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96A82037482FD207C9083E1FAF04A22D /* Pods-ReactNativeAztecDemo */,
+				F83EA88ACC8246BD12C0AF3E84667323 /* WordPress-Aztec-iOS */,
+				ABA0D4718C58687BF396871984ED402C /* WordPress-Aztec-iOS-WordPress-Aztec-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85E1BB3C1A91A8CAE294A327E0CC00CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9851964207E5B03F093EB666524FDB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93300467D476826AF2CECE62BA26264A /* WordPress-Aztec-iOS.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B980E6F260137B33B0F612B5E7123EE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269954DAA7C54011E484878D6C572BE9 /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		901AAEB506F86AEF6F1C862871B147A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59166938EBEC3DAF7FA3C15F1F45DDDA /* Pods-ReactNativeAztecDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CFBECB32F5DEBAD3629BAC53F0C17D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7973820A2DABC9407783FC0E5907E1 /* Array+Attribute.swift in Sources */,
+				DDC5A00EA8657BB75E1692D90546453F /* Array+Helpers.swift in Sources */,
+				C2569F3D4B80F55AC9B7E66640A024ED /* Array+ShortcodeAttribute.swift in Sources */,
+				3581AB40ED7FB87597FAE72305A85D19 /* Assets.swift in Sources */,
+				1FDB8755A444C853E50489DC9164BDE9 /* AttachmentElementConverter.swift in Sources */,
+				BB6F71ED723F6706A2D168B2FFAA01FB /* AttachmentToElementConverter.swift in Sources */,
+				849832509D494951034FA6F0B702AD39 /* Attribute.swift in Sources */,
+				755B349780DB52F0C4B3E25CD1699A91 /* AttributedStringParser.swift in Sources */,
+				75FAD6C6A1C794BE577484126CF5A8CA /* AttributedStringSerializer.swift in Sources */,
+				ECDD99CF9C3EEAE247B7590E6EEBF18A /* AttributeFormatter.swift in Sources */,
+				00EBE231D68BE001AF89CB97975F00E6 /* AttributeType.swift in Sources */,
+				415E2E35711C94BD014076A2AA05F3BC /* Blockquote.swift in Sources */,
+				004C93A91B499B8CE0239227496DFF20 /* BlockquoteFormatter.swift in Sources */,
+				8E3FAD562BDD3A6CFC18F3DCE5A0DF0B /* BoldCSSAttributeMatcher.swift in Sources */,
+				7EBB0F3EC5A5F88FCC2576CE5011D7BB /* BoldElementAttributeConverter.swift in Sources */,
+				C5D25270AF44E8F6AEBF7B8A343A0CF0 /* BoldFormatter.swift in Sources */,
+				AEA1549D6C811CC2F9E38474018BFA9A /* BoldStringAttributeConverter.swift in Sources */,
+				86E126AC084F34653C491231FE139B6F /* BRElementConverter.swift in Sources */,
+				729E8BA48853EB8EFD855F138E0FA087 /* Character+Name.swift in Sources */,
+				B295E539F898DE592C5D9A2B7E64FCF6 /* CiteElementConverter.swift in Sources */,
+				462473997A1ED0C157CAB6632BECD53D /* CiteFormatter.swift in Sources */,
+				67579C49726E58EDD88CFC8D86C5ED8B /* CiteStringAttributeConverter.swift in Sources */,
+				C0A3215F3152FB65CD8B080104E581E2 /* CLinkedListToArrayConverter.swift in Sources */,
+				546C1D7F342711D2E6358EC841F972C6 /* CodeFormatter.swift in Sources */,
+				DA432375D7565552B4A85FC6CBE65312 /* ColorFormatter.swift in Sources */,
+				0F4F03F9FB3C8EBE812E6CCE0086CD97 /* CommentAttachment.swift in Sources */,
+				811DCEEE27564779C4C0C83925BD9576 /* CommentAttachmentRenderer.swift in Sources */,
+				E6763F97FACF59435B30B3BFE2396532 /* CommentAttachmentToElementConverter.swift in Sources */,
+				52280DECBCB519D6C08F5CE8CB630288 /* CommentNode.swift in Sources */,
+				EA00D038575C6C6CBD941D9289DF875E /* ConditionalItalicStringAttributeConverter.swift in Sources */,
+				33A5AD3AB3FFD8C6B1E258C30B43AE93 /* ConditionalStringAttributeConverter.swift in Sources */,
+				801BA7DB8B028C05080898B58EFBC001 /* Converter.swift in Sources */,
+				67291874BF5E0A1C749ACCE4A615B355 /* CSSAttribute.swift in Sources */,
+				CE659707A50C6C53415CAC8D46C0D806 /* CSSAttributeMatcher.swift in Sources */,
+				25B92BD278551B8CC53927DD7907BCA5 /* CSSAttributeType.swift in Sources */,
+				6DD5A1140F40B0ACF8D9EC1381E2B3B8 /* CSSParser.swift in Sources */,
+				EAFF37056B48362BDF46EE9671966316 /* Dictionary+AttributedStringKey.swift in Sources */,
+				5F104DA5D9517913E748A40B61098BF5 /* DocumentReadingOptionKey+Swift4.swift in Sources */,
+				FDBDDD7675901855A5703C8768C0D2D0 /* DocumentType+Swift4.swift in Sources */,
+				41774742D3D33F9446138B2DBA1163F3 /* EditorView.swift in Sources */,
+				136CF2478EF99F09709DF044D7F8134C /* Element.swift in Sources */,
+				B3E95BA0B36DC4ACC08ED5846469C763 /* ElementAttributeConverter.swift in Sources */,
+				644728DC352DBFD16357EEEC103FA2F1 /* ElementConverter.swift in Sources */,
+				57C27E6F931DFA1E225B7F88431C3757 /* ElementNode.swift in Sources */,
+				4A423F265FB23EF489795191623460C4 /* ElementToStringConverter.swift in Sources */,
+				3EFEBB8999DA5D5987C6275C79F950A1 /* Figcaption.swift in Sources */,
+				B67687673A1A1638F6B752474E6C9BB8 /* FigcaptionElementConverter.swift in Sources */,
+				52748AF061446C0E93DFDA6B737A1FD0 /* FigcaptionFormatter.swift in Sources */,
+				033BDC76E771340D67307A97AB2AD70B /* Figure.swift in Sources */,
+				5668BAE115EBF195C5D6495141CCC8B9 /* FigureElementConverter.swift in Sources */,
+				078195AB434E66F17098C63DD4D84D41 /* FigureFormatter.swift in Sources */,
+				1EC024752F05A2D6B92DE186B137877F /* FontFormatter.swift in Sources */,
+				6C3F146D9D54B8DE8E5754E50065DF54 /* FormatBar.swift in Sources */,
+				9D5F4AA864AF8112735CEA37C44B22C0 /* FormatBarDelegate.swift in Sources */,
+				1DE798A6C8EBD80D15A1558D11E97660 /* FormatBarItem.swift in Sources */,
+				BF08DEB5012457AE6545DA8AB3FA772F /* FormatterElementConverter.swift in Sources */,
+				20CA614E5B9389ED8E9FE5F09BAC9ECF /* FormattingIdentifier.swift in Sources */,
+				3CBF1786AB8813B46DCCE01C9E4B1452 /* GenericElementConverter.swift in Sources */,
+				29DF6C76940A5F8ACF9D2D49E0B0BBCD /* GenericElementToTagConverter.swift in Sources */,
+				740205F1861E899C55E4B12A6E731015 /* Header.swift in Sources */,
+				DBB25615C68948CE647A66F22CBE19E9 /* HeaderFormatter.swift in Sources */,
+				081660F199A8297AD14568730C2F3FF2 /* HRElementConverter.swift in Sources */,
+				7C3A8A4C4BB84349D190AEA7088968C7 /* HTMLAttachment.swift in Sources */,
+				D0409B34EE13870E0F1C85501250DF52 /* HTMLAttachmentRenderer.swift in Sources */,
+				9136C4ADFA346B9F51204F4262AEF0D6 /* HTMLAttachmentToElementConverter.swift in Sources */,
+				D88B81F13007C8F2EA3F32B1C081B6AA /* HTMLConverter.swift in Sources */,
+				EE6248920559672E16C50382898B5C9B /* HTMLDiv.swift in Sources */,
+				35D51B459962E70830DB678DFB5A08B2 /* HTMLDivFormatter.swift in Sources */,
+				7F40502371158E7C20516CE10A0891BB /* HTMLLi.swift in Sources */,
+				7F4CBD36927F7F845B33EB9AFB7A21C2 /* HTMLParagraph.swift in Sources */,
+				B15428DA51C8278BC1E2CFEA0DF79C85 /* HTMLParagraphFormatter.swift in Sources */,
+				803EDE520D365700A23CA3D3B5D10E10 /* HTMLParser.swift in Sources */,
+				61CCB5D810D61E2961A2AA4E0C099665 /* HTMLPre.swift in Sources */,
+				B5F4DA1FB501DA15226184EE985892E8 /* HTMLProcessor.swift in Sources */,
+				C8B1AA8880FD2BDB871110E5400C6205 /* HTMLRepresentation.swift in Sources */,
+				EC33E7D4228DBA46827CE6100E474A79 /* HTMLSerializer.swift in Sources */,
+				9D9E4FFBD82B5F08869AB144B78B8589 /* HTMLStorage.swift in Sources */,
+				72F6DACE04609D55A3AC182EF2199215 /* HTMLStyleToggler.swift in Sources */,
+				F28C48F2154CE2783C0D17E187256409 /* HTMLTreeProcessor.swift in Sources */,
+				6ED971D2C577A831BE74A955181DB9CD /* ImageAttachment.swift in Sources */,
+				7F3F73D5C6E5ED452D0DD25336DD7F2A /* ImageAttachmentToElementConverter.swift in Sources */,
+				D57C13CA40F38DDEC10C16BBCA032F64 /* ImageElementConverter.swift in Sources */,
+				62C29FB3B2C40A28B06A5C2FC5C46FF8 /* InAttributeConverter.swift in Sources */,
+				C041A6E3DE5C719B971E898B7A142B4D /* InAttributesConverter.swift in Sources */,
+				FCF9A6AC99B6FEC80D76937C7C129AED /* InNodeConverter.swift in Sources */,
+				35DA076E351549FD89DB6C642C329EEC /* InNodesConverter.swift in Sources */,
+				BEC5AC5C23092B6D93F1A0BE08658242 /* ItalicCSSAttributeMatcher.swift in Sources */,
+				85BF5767DAA96FE16AA9DF4CE3698281 /* ItalicElementAttributeConverter.swift in Sources */,
+				37745F08EE4A7202095EA3C242E91805 /* ItalicFormatter.swift in Sources */,
+				D10D61F11F93AAEC854913470E75978D /* ItalicStringAttributeConverter.swift in Sources */,
+				F4245BE6D96214C71DB0F8B55D45B668 /* LayoutManager.swift in Sources */,
+				27D946E743EE9C84A4A5A4A54B9ED6CE /* LiFormatter.swift in Sources */,
+				86A4AAF4BD4338E0E5EE7A461B1D2E91 /* LineAttachment.swift in Sources */,
+				A25E3613FCCD6548C2132E636CEE36B4 /* LineAttachmentToElementConverter.swift in Sources */,
+				8461AD440A3FFAEF9C703373165D2433 /* LinkFormatter.swift in Sources */,
+				D39A22460298ED779360CFADA618103D /* MainAttributesConverter.swift in Sources */,
+				5DBB1BE236F287A03CE5ADA1054F4A1D /* MediaAttachment.swift in Sources */,
+				E49836E06F29DD3520780A2A0505C023 /* Metrics.swift in Sources */,
+				0D3E0D256030C9C99A8D6550AF2B479B /* Node.swift in Sources */,
+				B3A28507F20D492A165E3462B861562E /* NSAttributedString+Analyzers.swift in Sources */,
+				BDE26B4E4768A308DB6BFC0BECCFCB0A /* NSAttributedString+Archive.swift in Sources */,
+				8E47A5F4AD58E3F997085475073AB889 /* NSAttributedString+Attachments.swift in Sources */,
+				C1BE776A279D6402B4C985B981D039B3 /* NSAttributedString+CharacterName.swift in Sources */,
+				DF3336A864AD7095D534ADBB523A86E8 /* NSAttributedString+FontTraits.swift in Sources */,
+				FA45E53C6CA193E7A1302CCCA7196EE5 /* NSAttributedString+Lists.swift in Sources */,
+				19ADB477DBA5EB5EB857981AB8B06B18 /* NSAttributedString+ParagraphRange.swift in Sources */,
+				AB3FE6E4903A9E6DDDE4DB0EFFB71ECF /* NSAttributedString+ReplaceOcurrences.swift in Sources */,
+				AEE3BCA269BD4E75B018C9DAA67D7FAA /* NSAttributedStringKey+Aztec.swift in Sources */,
+				D147EAC60C0D94FE46770BA219F1E2C7 /* NSAttributedStringKey+Conversion.swift in Sources */,
+				5B2859569B01A25AD6BBA373B42D8039 /* NSBundle+AztecBundle.swift in Sources */,
+				CECAC9027642C2709A6F42D05416AD78 /* NSLayoutManager+Attachments.swift in Sources */,
+				C3168C672A22F1DAD420F2633E373EA0 /* NSMutableAttributedString+ParagraphProperty.swift in Sources */,
+				B7441D3F9A25C7418597936525DEE828 /* NSMutableAttributedString+ReplaceOcurrences.swift in Sources */,
+				8EA3E61B0B425DB286C98BD2AB293440 /* NSRange+Helpers.swift in Sources */,
+				2A4A95DFF525B1DEEE292EB7D12F47BE /* NSTextingResult+Helpers.swift in Sources */,
+				9B81AAFC9A38D4D638A2B461D02DFC59 /* ParagraphAttributeFormatter.swift in Sources */,
+				254ED354AFFBB02CE2B99BA35CF524AA /* ParagraphProperty.swift in Sources */,
+				9A15990A71A24F9D91ED81232C880614 /* ParagraphPropertyConverter.swift in Sources */,
+				B8712A4DDD8CF0F670729D42027155F0 /* ParagraphStyle.swift in Sources */,
+				CE8A394A03741E49C44428A64463556A /* PipelineProcessor.swift in Sources */,
+				2264DA5B6C1FAFA05844A6CBB70F4309 /* Plugin.swift in Sources */,
+				265322013FCC50F9070157B01D19F774 /* PluginInputCustomizer.swift in Sources */,
+				2AA9B4FD9DC9F9C0F1C9C265D6981664 /* PluginManager.swift in Sources */,
+				F99684F6FC1C223FC61B6B0FA949DE0E /* PluginOutputCustomizer.swift in Sources */,
+				3B929D2D06B66B951EBD4A0BFB42AA01 /* PreFormatter.swift in Sources */,
+				BF7DB7CF75CC829A4EA764D19E505D09 /* Processor.swift in Sources */,
+				B0ED23CB087ABB561F2393E6277273C9 /* RegexProcessor.swift in Sources */,
+				2A799C3254456C6A55AB90DE2B26501E /* RenderableAttachment.swift in Sources */,
+				F245BF8F522400ABB58E9F611FC42C66 /* ShortcodeAttribute.swift in Sources */,
+				B58638BCE014219F06CF80412CCC5312 /* ShortcodeAttributeParser.swift in Sources */,
+				BE836AEFA816A34C17DBA83C043BB798 /* ShortcodeAttributeSerializer.swift in Sources */,
+				4121DFA653520C27FFD179394C81C039 /* StandardAttributeFormatter.swift in Sources */,
+				1232908ADAFD52A5B94B28CC447737D8 /* StrikethroughFormatter.swift in Sources */,
+				A8E7BF015C747C12D87E4D7B8D35026E /* String+CharacterName.swift in Sources */,
+				D00BD6EC52C9B65E3449DCE125EDAD20 /* String+EndOfLine.swift in Sources */,
+				D8BE9D779BECFB4D38A99AD5183F977E /* String+HTML.swift in Sources */,
+				06DA29FB34E29A0ADFA4670A48A42FB2 /* String+Paragraph.swift in Sources */,
+				D665E24744BCD6F61723665759A3C800 /* String+RangeConversion.swift in Sources */,
+				2F4CD8805F59D3EC5F67A054782F0D5B /* StringAttributeConverter.swift in Sources */,
+				272E452EC408E3E0758104978C070145 /* StringUTF16+RangeConversion.swift in Sources */,
+				38B5AED524DB420C8FC5C3BE4D945DE9 /* TextList.swift in Sources */,
+				C12803FABD4A314C655E81AEE1ED9F59 /* TextListFormatter.swift in Sources */,
+				3B6BA4149902D4046DDED14D9E42DFD3 /* TextNode.swift in Sources */,
+				CA442485EC49BBBE317E2A62FEC02C9C /* TextStorage.swift in Sources */,
+				41DB3B5C7632526915066754D0A5EEEE /* TextView.swift in Sources */,
+				850F2504BFE08BA1880C48D8CDB3CDBB /* TextViewPasteboardDelegate.swift in Sources */,
+				6072324709B1AA71A9C8D29C29666DEE /* UIColor+Parsers.swift in Sources */,
+				E47303AD0846D809F273C9FE6336906C /* UIFont+Emoji.swift in Sources */,
+				1AA1CDFEA332CCD3C62C308930098D45 /* UIFont+Traits.swift in Sources */,
+				17A340B01E5AF5BF1630D1B0A9301726 /* UIImage+Resize.swift in Sources */,
+				5DFEBBB9970B316B3B663A6757FD590A /* UILayoutPriority+Swift4.swift in Sources */,
+				94E9BE5D523BE535B1D9F7ADB2ADE7B8 /* UIPasteboard+Helpers.swift in Sources */,
+				B482695EB389BF849EDFDB2D038167A4 /* UIStackView+Helpers.swift in Sources */,
+				75F654E9E95C05062BC718016FED0A48 /* UITextView+Delegate.swift in Sources */,
+				EDD00C78DF2AA316BC21889679A9D8A9 /* UITextView+Undoable.swift in Sources */,
+				D465069BC4C1A808265F39CFEBA03AD5 /* UnderlineCSSAttributeMatcher.swift in Sources */,
+				97B1963E375F3F436B65DCC6E9F4708A /* UnderlineElementAttributeConverter.swift in Sources */,
+				0B1CAC11963E613B9720FD09120A63D7 /* UnderlineFormatter.swift in Sources */,
+				1B9F498540B953390E63F7FD075258A2 /* UnderlineStringAttributeConverter.swift in Sources */,
+				E658238D7DD160E2B6AFF606133413EA /* UnsupportedHTML.swift in Sources */,
+				63FB89BCACF4E6FC72B1A948E1A11B76 /* VideoAttachment.swift in Sources */,
+				F296582887AB5959715DD849BB17AA4F /* VideoAttachmentToElementConverter.swift in Sources */,
+				A904D2B8CAED00289261577A6C30FB52 /* VideoElementConverter.swift in Sources */,
+				3A6678F5318D601CD833517F472A28C5 /* WordPress-Aztec-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF43ABF51AFFE8B3A3E10E0B99329FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61821BC679B814F96C14A3FFA3F0CE95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WordPress-Aztec-iOS-WordPress-Aztec-iOS";
+			target = ABA0D4718C58687BF396871984ED402C /* WordPress-Aztec-iOS-WordPress-Aztec-iOS */;
+			targetProxy = E74391A8B26FB967718DC747AC08553A /* PBXContainerItemProxy */;
+		};
+		A1F1E57D60BD51FB51B75D4021BA60C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WordPress-Aztec-iOS";
+			target = F83EA88ACC8246BD12C0AF3E84667323 /* WordPress-Aztec-iOS */;
+			targetProxy = C702C6CD660A52CFC5A2D7F905E5B99E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C9C692A6FA3233042085122D660CFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FBB1598FDA549194A5C91382FD32228 /* WordPress-Aztec-iOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WordPress-Aztec-iOS/WordPress-Aztec-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WordPress-Aztec-iOS/WordPress-Aztec-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WordPress-Aztec-iOS/WordPress-Aztec-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Aztec;
+				PRODUCT_NAME = Aztec;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4534BC943A137968B595D91604147FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FBB1598FDA549194A5C91382FD32228 /* WordPress-Aztec-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WordPress-Aztec-iOS";
+				INFOPLIST_FILE = "Target Support Files/WordPress-Aztec-iOS/ResourceBundle-WordPress-Aztec-iOS-WordPress-Aztec-iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = "WordPress-Aztec-iOS";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6DDF870D9B5E517594B341026D06FE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FBB1598FDA549194A5C91382FD32228 /* WordPress-Aztec-iOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WordPress-Aztec-iOS/WordPress-Aztec-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WordPress-Aztec-iOS/WordPress-Aztec-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WordPress-Aztec-iOS/WordPress-Aztec-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Aztec;
+				PRODUCT_NAME = Aztec;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72EEE7E30B3BAC7C678901192B3CF97D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D99E1A19DCDD7828BFA89AB3A5A4D6 /* Pods-ReactNativeAztecDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReactNativeAztecDemo/Pods-ReactNativeAztecDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReactNativeAztecDemo/Pods-ReactNativeAztecDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		801A045B36832866012DB45DE5D0E048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FBB1598FDA549194A5C91382FD32228 /* WordPress-Aztec-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WordPress-Aztec-iOS";
+				INFOPLIST_FILE = "Target Support Files/WordPress-Aztec-iOS/ResourceBundle-WordPress-Aztec-iOS-WordPress-Aztec-iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = "WordPress-Aztec-iOS";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B509157A98FFDC9BB3502FACBD96216E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A78FD74680A5C95F4F5FD95B9C3A75 /* Pods-ReactNativeAztecDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReactNativeAztecDemo/Pods-ReactNativeAztecDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReactNativeAztecDemo/Pods-ReactNativeAztecDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36032018652BB3D3A49F03D8A53D834A /* Build configuration list for PBXNativeTarget "WordPress-Aztec-iOS-WordPress-Aztec-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4534BC943A137968B595D91604147FFE /* Debug */,
+				801A045B36832866012DB45DE5D0E048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D09D2903B8D306B848DCB7E5D1A1D67 /* Build configuration list for PBXNativeTarget "Pods-ReactNativeAztecDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B509157A98FFDC9BB3502FACBD96216E /* Debug */,
+				72EEE7E30B3BAC7C678901192B3CF97D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C0E3F69D554F6ABEF0324D5B844F7D /* Build configuration list for PBXNativeTarget "WordPress-Aztec-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C9C692A6FA3233042085122D660CFB7 /* Debug */,
+				6DDF870D9B5E517594B341026D06FE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

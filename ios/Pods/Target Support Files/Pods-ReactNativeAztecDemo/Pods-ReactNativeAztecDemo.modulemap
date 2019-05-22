@@ -1,0 +1,6 @@
+framework module Pods_ReactNativeAztecDemo {
+  umbrella header "Pods-ReactNativeAztecDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
