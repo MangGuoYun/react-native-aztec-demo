@@ -18,22 +18,53 @@ class RNAZEditViewManager: RCTViewManager {
   
   @objc
   public override func view() -> UIView {
-    let view = Aztec.TextView(defaultFont: UIFont.systemFont(ofSize: 16), defaultMissingImage: UIImage.init());
+    let view = RNAZEditView(defaultFont: UIFont.systemFont(ofSize: 16), defaultMissingImage: UIImage.init());
     return view;
-    
-//    let view = Aztec.EditorView(defaultFont: UIFont.systemFont(ofSize: 16), defaultHTMLFont: UIFont.systemFont(ofSize: 16), defaultParagraphStyle: ParagraphStyle.default, defaultMissingImage: UIImage.init())
-//    view.isScrollEnabled = false
-//    return view
   }
   
   @objc
   func setHTML(_ node: NSNumber, html: String) {
     self.bridge.uiManager.addUIBlock { (manager, viewRegistry) in
       let view = viewRegistry?[node]
-      guard let aztecView = view as? Aztec.TextView else {
+      guard let aztecView = view as? RNAZEditView else {
         return
       }
       aztecView.setHTML(html);
+    }
+  }
+  
+  @objc
+  func getHTML(_ node: NSNumber, prettify:Bool, callback:@escaping RCTResponseSenderBlock) {
+    self.bridge.uiManager.addUIBlock { (manager, viewRegistry) in
+      let view = viewRegistry?[node]
+      guard let aztecView = view as? RNAZEditView else {
+        return
+      }
+      let html = aztecView.getHTML(prettify: prettify);
+      callback([NSNull.init(),html]);
+    }
+  }
+  
+  @objc
+  func getText(_ node: NSNumber, callback:@escaping RCTResponseSenderBlock) {
+    self.bridge.uiManager.addUIBlock { (manager, viewRegistry) in
+      let view = viewRegistry?[node]
+      guard let aztecView = view as? RNAZEditView else {
+        return
+      }
+      let text = aztecView.text;
+      callback([NSNull.init(),text as Any]);
+    }
+  }
+  
+  @objc
+  func insertText(_ node: NSNumber, text: String) {
+    self.bridge.uiManager.addUIBlock { (manager, viewRegistry) in
+      let view = viewRegistry?[node]
+      guard let aztecView = view as? RNAZEditView else {
+        return
+      }
+      aztecView.insertText(text);
     }
   }
   

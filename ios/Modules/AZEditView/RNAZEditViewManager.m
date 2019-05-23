@@ -14,7 +14,14 @@
 RCT_EXPORT_VIEW_PROPERTY(text, NSString)
 RCT_EXPORT_VIEW_PROPERTY(textColor, UIColor)
 
+RCT_EXPORT_VIEW_PROPERTY(onFocus, RCTBubblingEventBlock)
+RCT_EXPORT_VIEW_PROPERTY(onBlur, RCTBubblingEventBlock)
+
 // 方法
 RCT_EXTERN_METHOD(setHTML:(nonnull NSNumber *)node html:(nonnull NSString *)html)
+RCT_EXTERN_METHOD(getText:(nonnull NSNumber *)node callback:(RCTResponseSenderBlock)callback)
+RCT_EXTERN_METHOD(getHTML:(nonnull NSNumber *)node prettify:(BOOL)prettify callback:(RCTResponseSenderBlock)callback)
+RCT_EXTERN_METHOD(insertText:(nonnull NSNumber *)node text:(nonnull NSString *)text)
 
 @end
+

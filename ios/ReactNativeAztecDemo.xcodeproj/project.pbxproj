@@ -27,6 +27,7 @@
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		F247CD652295255C006A4529 /* RNAZEditViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F247CD642295255C006A4529 /* RNAZEditViewManager.swift */; };
 		F247CD67229525AB006A4529 /* RNAZEditViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F247CD66229525AB006A4529 /* RNAZEditViewManager.m */; };
+		F265DEA72296B2D500DECA35 /* RNAZEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F265DEA62296B2D500DECA35 /* RNAZEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -322,6 +323,7 @@
 		F247CD0022951C28006A4529 /* ReactNativeAztecDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactNativeAztecDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		F247CD642295255C006A4529 /* RNAZEditViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNAZEditViewManager.swift; sourceTree = "<group>"; };
 		F247CD66229525AB006A4529 /* RNAZEditViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAZEditViewManager.m; sourceTree = "<group>"; };
+		F265DEA62296B2D500DECA35 /* RNAZEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNAZEditView.swift; sourceTree = "<group>"; };
 		FC9B67AAF9D2E269D9333341 /* Pods-ReactNativeAztecDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeAztecDemo.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeAztecDemo/Pods-ReactNativeAztecDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -579,6 +581,7 @@
 			children = (
 				F247CD642295255C006A4529 /* RNAZEditViewManager.swift */,
 				F247CD66229525AB006A4529 /* RNAZEditViewManager.m */,
+				F265DEA62296B2D500DECA35 /* RNAZEditView.swift */,
 			);
 			path = AZEditView;
 			sourceTree = "<group>";
@@ -1032,6 +1035,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				F247CD67229525AB006A4529 /* RNAZEditViewManager.m in Sources */,
+				F265DEA72296B2D500DECA35 /* RNAZEditView.swift in Sources */,
 				F247CD652295255C006A4529 /* RNAZEditViewManager.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
