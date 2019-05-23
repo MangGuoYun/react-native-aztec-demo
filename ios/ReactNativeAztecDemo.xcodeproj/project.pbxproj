@@ -25,7 +25,8 @@
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		D23F01677151472F4DC6F885 /* Pods_ReactNativeAztecDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041B11CC71F2A6867877FED1 /* Pods_ReactNativeAztecDemo.framework */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
-		F247CD2E22951CC0006A4529 /* AZEditViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F247CD2D22951CC0006A4529 /* AZEditViewManager.m */; };
+		F247CD652295255C006A4529 /* RNAZEditViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F247CD642295255C006A4529 /* RNAZEditViewManager.swift */; };
+		F247CD67229525AB006A4529 /* RNAZEditViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F247CD66229525AB006A4529 /* RNAZEditViewManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -319,8 +320,8 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F247CD0022951C28006A4529 /* ReactNativeAztecDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactNativeAztecDemo-Bridging-Header.h"; sourceTree = "<group>"; };
-		F247CD2C22951CC0006A4529 /* AZEditViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZEditViewManager.h; sourceTree = "<group>"; };
-		F247CD2D22951CC0006A4529 /* AZEditViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZEditViewManager.m; sourceTree = "<group>"; };
+		F247CD642295255C006A4529 /* RNAZEditViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNAZEditViewManager.swift; sourceTree = "<group>"; };
+		F247CD66229525AB006A4529 /* RNAZEditViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAZEditViewManager.m; sourceTree = "<group>"; };
 		FC9B67AAF9D2E269D9333341 /* Pods-ReactNativeAztecDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeAztecDemo.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeAztecDemo/Pods-ReactNativeAztecDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -576,8 +577,8 @@
 		F247CD2922951C53006A4529 /* AZEditView */ = {
 			isa = PBXGroup;
 			children = (
-				F247CD2C22951CC0006A4529 /* AZEditViewManager.h */,
-				F247CD2D22951CC0006A4529 /* AZEditViewManager.m */,
+				F247CD642295255C006A4529 /* RNAZEditViewManager.swift */,
+				F247CD66229525AB006A4529 /* RNAZEditViewManager.m */,
 			);
 			path = AZEditView;
 			sourceTree = "<group>";
@@ -1030,8 +1031,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				F247CD67229525AB006A4529 /* RNAZEditViewManager.m in Sources */,
+				F247CD652295255C006A4529 /* RNAZEditViewManager.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
-				F247CD2E22951CC0006A4529 /* AZEditViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
